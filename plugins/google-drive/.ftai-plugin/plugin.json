@@ -1,11 +1,38 @@
 {
   "name": "google-drive",
-  "displayName": "Google Drive 云端网盘",
+  "displayName": "Google Drive",
   "version": "1.0.0",
-  "description": "Google Drive 云盘与在线文档集成：搜索云端文件、提取 Google Docs / Sheets / Slides 内容、管理文件目录。",
+  "description": "Google Drive integration: search cloud files, read Google Docs/Sheets, list directories, and manage drive assets directly from AI.",
   "author": {
     "name": "FtAi Team / Google"
   },
   "homepage": "https://developers.google.com/drive",
-  "skills": ["skills/google-drive-sync"]
+  "skills": [
+    "skills/google-drive-sync"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "Google Drive 云端网盘",
+      "description": "Google Drive 云盘与在线文档集成：搜索云端文件、提取 Google Docs / Sheets / Slides 内容、管理文件目录。",
+      "tags": [
+        "google",
+        "网盘",
+        "云盘",
+        "文档",
+        "表格",
+        "云存储"
+      ]
+    },
+    "en-US": {
+      "displayName": "Google Drive Cloud Storage",
+      "description": "Google Drive integration: search cloud files, read Google Docs/Sheets, list directories, and manage drive assets directly from AI.",
+      "tags": [
+        "google",
+        "gdrive",
+        "docs",
+        "sheets",
+        "cloud-storage"
+      ]
+    }
+  }
 }

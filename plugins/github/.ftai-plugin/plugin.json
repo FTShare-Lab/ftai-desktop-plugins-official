@@ -1,11 +1,38 @@
 {
   "name": "github",
-  "displayName": "GitHub 研发协同",
+  "displayName": "GitHub",
   "version": "1.0.0",
-  "description": "GitHub 仓库与协作管理：查看 Issue、提交 Pull Request、分析代码提交历史、管理 Release 等。",
+  "description": "Official GitHub integration for repository management: create issues, manage PRs, review code, search repositories and commits.",
   "author": {
     "name": "FtAi Team / GitHub"
   },
   "homepage": "https://github.com",
-  "skills": ["skills/github-workflows"]
+  "skills": [
+    "skills/github-workflows"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "GitHub 研发协同",
+      "description": "GitHub 仓库与协作管理：查看 Issue、提交 Pull Request、分析代码提交历史、管理 Release 等。",
+      "tags": [
+        "github",
+        "git",
+        "代码仓库",
+        "pr",
+        "issue",
+        "协作"
+      ]
+    },
+    "en-US": {
+      "displayName": "GitHub Collaboration",
+      "description": "Official GitHub integration for repository management: create issues, manage PRs, review code, search repositories and commits.",
+      "tags": [
+        "github",
+        "git",
+        "pull-request",
+        "issue",
+        "devops"
+      ]
+    }
+  }
 }

@@ -1,11 +1,38 @@
 {
   "name": "postgres",
-  "displayName": "PostgreSQL 数据库",
+  "displayName": "PostgreSQL",
   "version": "1.0.0",
-  "description": "PostgreSQL 数据库管理：查看表结构与索引、执行分析型查询、诊断慢查询与辅助编写迁移脚本。",
+  "description": "PostgreSQL database management: inspect schemas, execute safe analytical queries, analyze table indices, and generate migrations.",
   "author": {
     "name": "FtAi Team / PostgreSQL Community"
   },
   "homepage": "https://www.postgresql.org",
-  "skills": ["skills/postgres-db"]
+  "skills": [
+    "skills/postgres-db"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "PostgreSQL 数据库",
+      "description": "PostgreSQL 数据库管理：查看表结构与索引、执行分析型查询、诊断慢查询与辅助编写迁移脚本。",
+      "tags": [
+        "postgres",
+        "postgresql",
+        "数据库",
+        "sql",
+        "表结构",
+        "索引"
+      ]
+    },
+    "en-US": {
+      "displayName": "PostgreSQL Database",
+      "description": "PostgreSQL database management: inspect schemas, execute safe analytical queries, analyze table indices, and generate migrations.",
+      "tags": [
+        "postgres",
+        "postgresql",
+        "sql",
+        "database",
+        "rdbms"
+      ]
+    }
+  }
 }

@@ -1,11 +1,38 @@
 {
   "name": "docker",
-  "displayName": "Docker 容器管理",
+  "displayName": "Docker",
   "version": "1.0.0",
-  "description": "Docker 容器与镜像管理：查看运行中容器状态、拉取日志、检查网络与卷、辅助编写 Dockerfile 及 Compose 配置。",
+  "description": "Docker container & compose management: inspect running containers, view logs, manage images, and generate Dockerfiles / Compose configurations.",
   "author": {
     "name": "FtAi Team / Docker"
   },
   "homepage": "https://www.docker.com",
-  "skills": ["skills/docker-ops"]
+  "skills": [
+    "skills/docker-ops"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "Docker 容器管理",
+      "description": "Docker 容器与镜像管理：查看运行中容器状态、拉取日志、检查网络与卷、辅助编写 Dockerfile 及 Compose 配置。",
+      "tags": [
+        "docker",
+        "容器",
+        "镜像",
+        "compose",
+        "运维",
+        "部署"
+      ]
+    },
+    "en-US": {
+      "displayName": "Docker Container Ops",
+      "description": "Docker container & compose management: inspect running containers, view logs, manage images, and generate Dockerfiles / Compose configurations.",
+      "tags": [
+        "docker",
+        "containers",
+        "compose",
+        "devops",
+        "deployment"
+      ]
+    }
+  }
 }

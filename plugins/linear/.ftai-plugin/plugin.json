@@ -1,11 +1,36 @@
 {
   "name": "linear",
-  "displayName": "Linear 项目管理",
+  "displayName": "Linear",
   "version": "1.0.0",
-  "description": "Linear 敏捷项目与任务管理集成：创建任务、追踪 Sprint 迭代、更新状态与关联 Git 分支。",
+  "description": "Linear project management integration: create issues, track sprint cycles, update project statuses, and search team workspaces.",
   "author": {
     "name": "FtAi Team / Linear"
   },
   "homepage": "https://linear.app",
-  "skills": ["skills/linear-tracker"]
+  "skills": [
+    "skills/linear-tracker"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "Linear 项目管理",
+      "description": "Linear 敏捷项目与任务管理集成：创建任务、追踪 Sprint 迭代、更新状态与关联 Git 分支。",
+      "tags": [
+        "linear",
+        "敏捷开发",
+        "项目管理",
+        "任务看板",
+        "issue"
+      ]
+    },
+    "en-US": {
+      "displayName": "Linear Project Tracking",
+      "description": "Linear project management integration: create issues, track sprint cycles, update project statuses, and search team workspaces.",
+      "tags": [
+        "linear",
+        "issue-tracker",
+        "project-management",
+        "agile"
+      ]
+    }
+  }
 }

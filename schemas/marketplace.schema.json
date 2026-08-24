@@ -35,6 +35,18 @@
         "type": "string"
       }
     },
+    "locales": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-z]{2}(-[A-Z]{2})?$": {
+          "type": "object",
+          "properties": {
+            "displayName": { "type": "string" },
+            "description": { "type": "string" }
+          }
+        }
+      }
+    },
     "renames": {
       "type": "object",
       "additionalProperties": {
@@ -77,6 +89,22 @@
           "tags": {
             "type": "array",
             "items": { "type": "string" }
+          },
+          "locales": {
+            "type": "object",
+            "patternProperties": {
+              "^[a-z]{2}(-[A-Z]{2})?$": {
+                "type": "object",
+                "properties": {
+                  "displayName": { "type": "string" },
+                  "description": { "type": "string" },
+                  "tags": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  }
+                }
+              }
+            }
           },
           "author": {
             "oneOf": [

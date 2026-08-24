@@ -1,11 +1,37 @@
 {
   "name": "code-review",
-  "displayName": "代码审查专家 (Code Review)",
+  "displayName": "Code Review Toolkit",
   "version": "1.0.0",
-  "description": "自动化高质量代码审查：针对 Git Diff 全面评估代码正确性、并发安全、异常边界、性能瓶颈与架构整洁度。",
+  "description": "Comprehensive multi-perspective code reviewer: reviews git diffs for correctness, security, architectural consistency, and test coverage.",
   "author": {
     "name": "FtAi Team"
   },
   "homepage": "https://github.com/ftai",
-  "skills": ["skills/code-review"]
+  "skills": [
+    "skills/code-review"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "代码审查专家 (Code Review)",
+      "description": "自动化高质量代码审查：针对 Git Diff 全面评估代码正确性、并发安全、异常边界、性能瓶颈与架构整洁度。",
+      "tags": [
+        "代码审查",
+        "code-review",
+        "质量保障",
+        "安全审计",
+        "diff审查"
+      ]
+    },
+    "en-US": {
+      "displayName": "Code Review Toolkit",
+      "description": "Comprehensive multi-perspective code reviewer: reviews git diffs for correctness, security, architectural consistency, and test coverage.",
+      "tags": [
+        "code-review",
+        "git",
+        "quality",
+        "security",
+        "best-practices"
+      ]
+    }
+  }
 }

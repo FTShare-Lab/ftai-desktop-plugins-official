@@ -1,11 +1,39 @@
 {
   "name": "frontend-design",
-  "displayName": "前端高质感设计 (Frontend Design Pro)",
+  "displayName": "Frontend Design Pro",
   "version": "1.0.0",
-  "description": "打造高质感、现代且符合无障碍规范的前端界面：严谨的排版字阶、语义化颜色 Token、细腻动画与响应式布局。",
+  "description": "Craft distinctive, production-ready frontend interfaces with top-tier typography, cohesive color token systems, and accessible components.",
   "author": {
     "name": "FtAi Team"
   },
   "homepage": "https://github.com/ftai",
-  "skills": ["skills/frontend-design"]
+  "skills": [
+    "skills/frontend-design"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "前端高质感设计 (Frontend Design Pro)",
+      "description": "打造高质感、现代且符合无障碍规范的前端界面：严谨的排版字阶、语义化颜色 Token、细腻动画与响应式布局。",
+      "tags": [
+        "前端设计",
+        "ui",
+        "ux",
+        "tailwind",
+        "组件开发",
+        "设计规范"
+      ]
+    },
+    "en-US": {
+      "displayName": "Frontend Design Pro",
+      "description": "Craft distinctive, production-ready frontend interfaces with top-tier typography, cohesive color token systems, and accessible components.",
+      "tags": [
+        "frontend",
+        "ui",
+        "tailwind",
+        "design-system",
+        "vue",
+        "react"
+      ]
+    }
+  }
 }

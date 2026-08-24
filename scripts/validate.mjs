@@ -15,9 +15,16 @@ function reportError(msg) {
   errorCount++;
 }
 
+function reportWarn(msg) {
+  console.warn(`⚠️  [WARN] ${msg}`);
+  warnCount++;
+}
+
 function reportSuccess(msg) {
   console.log(`✅ [OK] ${msg}`);
 }
+
+const SUPPORTED_LOCALES = ["zh-CN", "en-US"];
 
 // 1. 验证 .ftai-plugin/marketplace.json
 const marketplacePath = path.join(rootDir, ".ftai-plugin/marketplace.json");
@@ -39,6 +46,18 @@ if (!fs.existsSync(marketplacePath)) {
           continue;
         }
 
+        // 验证 locales
+        if (plugin.locales) {
+          for (const [localeKey, localeData] of Object.entries(plugin.locales)) {
+            if (!SUPPORTED_LOCALES.includes(localeKey)) {
+              reportWarn(`Plugin ${plugin.name} has non-standard locale key: ${localeKey}`);
+            }
+            if (!localeData.description && !localeData.displayName) {
+              reportError(`Plugin ${plugin.name} locale ${localeKey} is empty`);
+            }
+          }
+        }
+
         // 如果是本地路径插件，校验本地目录
         if (typeof plugin.source === "string" && plugin.source.startsWith("./")) {
           const pluginDir = path.join(rootDir, plugin.source);
@@ -55,6 +74,13 @@ if (!fs.existsSync(marketplacePath)) {
               const manifestContent = JSON.parse(fs.readFileSync(pluginManifest, "utf-8"));
               if (manifestContent.name !== plugin.name) {
                 reportError(`Manifest name mismatch for ${plugin.name}: found ${manifestContent.name}`);
+              }
+              if (manifestContent.locales) {
+                for (const [locKey, locVal] of Object.entries(manifestContent.locales)) {
+                  if (!SUPPORTED_LOCALES.includes(locKey)) {
+                    reportWarn(`Local plugin ${plugin.name} manifest has non-standard locale key: ${locKey}`);
+                  }
+                }
               }
             } catch (e) {
               reportError(`Failed to parse plugin manifest for ${plugin.name}: ${e.message}`);
@@ -85,7 +111,7 @@ if (!fs.existsSync(claudeMarketplacePath)) {
 
 console.log("\n==========================================");
 if (errorCount === 0) {
-  console.log("🎉 All registry and plugin checks passed successfully!");
+  console.log(`🎉 All registry and plugin checks passed successfully! (${warnCount} warnings)`);
   process.exit(0);
 } else {
   console.error(`💥 Validation finished with ${errorCount} error(s) and ${warnCount} warning(s).`);

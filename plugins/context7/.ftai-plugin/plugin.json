@@ -1,11 +1,38 @@
 {
   "name": "context7",
-  "displayName": "Context7 技术文档库",
+  "displayName": "Context7 Documentation",
   "version": "1.0.0",
-  "description": "Context7 技术文档实时查询：获取 React、Vue、Tailwind、Next.js、Prisma、Rust 等数百个前沿技术栈的官方最新文档。",
+  "description": "Up-to-date documentation search for hundreds of frameworks and libraries (React, Vue, Tailwind, Next.js, Rust, Python, Go, etc.).",
   "author": {
     "name": "FtAi Team / Context7"
   },
   "homepage": "https://context7.com",
-  "skills": ["skills/context7-docs"]
+  "skills": [
+    "skills/context7-docs"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "Context7 技术文档库",
+      "description": "Context7 技术文档实时查询：获取 React、Vue、Tailwind、Next.js、Prisma、Rust 等数百个前沿技术栈的官方最新文档。",
+      "tags": [
+        "文档",
+        "技术文档",
+        "api参考",
+        "框架",
+        "context7",
+        "语法查询"
+      ]
+    },
+    "en-US": {
+      "displayName": "Context7 Documentation Hub",
+      "description": "Up-to-date documentation search for hundreds of frameworks and libraries (React, Vue, Tailwind, Next.js, Rust, Python, Go, etc.).",
+      "tags": [
+        "docs",
+        "documentation",
+        "context7",
+        "frameworks",
+        "api"
+      ]
+    }
+  }
 }

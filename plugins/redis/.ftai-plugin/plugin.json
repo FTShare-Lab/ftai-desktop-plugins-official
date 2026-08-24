@@ -1,11 +1,38 @@
 {
   "name": "redis",
-  "displayName": "Redis 缓存管理",
+  "displayName": "Redis",
   "version": "1.0.0",
-  "description": "Redis 内存存储与缓存调试：查看键空间分布、读取键值与 TTL、监控内存使用与排查缓存穿透问题。",
+  "description": "Redis memory store integration: inspect cache keys, monitor memory usage, debug pub/sub channels, and inspect TTL / data structures.",
   "author": {
     "name": "FtAi Team / Redis Community"
   },
   "homepage": "https://redis.io",
-  "skills": ["skills/redis-cache"]
+  "skills": [
+    "skills/redis-cache"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "Redis 缓存管理",
+      "description": "Redis 内存存储与缓存调试：查看键空间分布、读取键值与 TTL、监控内存使用与排查缓存穿透问题。",
+      "tags": [
+        "redis",
+        "缓存",
+        "内存数据库",
+        "key-value",
+        "nosql",
+        "ttl"
+      ]
+    },
+    "en-US": {
+      "displayName": "Redis Cache Manager",
+      "description": "Redis memory store integration: inspect cache keys, monitor memory usage, debug pub/sub channels, and inspect TTL / data structures.",
+      "tags": [
+        "redis",
+        "cache",
+        "key-value",
+        "in-memory",
+        "nosql"
+      ]
+    }
+  }
 }

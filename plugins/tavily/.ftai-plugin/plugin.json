@@ -1,11 +1,37 @@
 {
   "name": "tavily",
-  "displayName": "Tavily AI 智能搜索",
+  "displayName": "Tavily AI Search",
   "version": "1.0.0",
-  "description": "专为 AI 设计的高性能实时网络搜索与深度内容爬取引擎，支持上下文精准过滤与多源内容总结。",
+  "description": "AI-native real-time web search and content extraction engine optimized for LLMs and multi-step research tasks.",
   "author": {
     "name": "FtAi Team / Tavily"
   },
   "homepage": "https://tavily.com",
-  "skills": ["skills/tavily-search"]
+  "skills": [
+    "skills/tavily-search"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "Tavily AI 智能搜索",
+      "description": "专为 AI 设计的高性能实时网络搜索与深度内容爬取引擎，支持上下文精准过滤与多源内容总结。",
+      "tags": [
+        "搜索",
+        "网络搜索",
+        "实时信息",
+        "网页爬取",
+        "tavily"
+      ]
+    },
+    "en-US": {
+      "displayName": "Tavily AI Search",
+      "description": "AI-native real-time web search and content extraction engine optimized for LLMs and multi-step research tasks.",
+      "tags": [
+        "search",
+        "web-search",
+        "tavily",
+        "crawler",
+        "research"
+      ]
+    }
+  }
 }

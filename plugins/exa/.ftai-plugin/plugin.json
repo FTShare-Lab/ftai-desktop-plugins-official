@@ -1,11 +1,36 @@
 {
   "name": "exa",
-  "displayName": "Exa 神经搜索引擎",
+  "displayName": "Exa Neural Search",
   "version": "1.0.0",
-  "description": "基于语义嵌入的深度神经网络搜索引擎：深度学术文献检索、公司与竞品调研、技术架构分析与高质量代码查找。",
+  "description": "Neural web search, deep academic and technical research, company profiles, and content extraction via Exa AI API.",
   "author": {
     "name": "FtAi Team / Exa"
   },
   "homepage": "https://exa.ai",
-  "skills": ["skills/exa-search"]
+  "skills": [
+    "skills/exa-search"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "Exa 神经搜索引擎",
+      "description": "基于语义嵌入的深度神经网络搜索引擎：深度学术文献检索、公司与竞品调研、技术架构分析与高质量代码查找。",
+      "tags": [
+        "exa",
+        "神经搜索",
+        "语义检索",
+        "学术文献",
+        "技术调研"
+      ]
+    },
+    "en-US": {
+      "displayName": "Exa Neural Search",
+      "description": "Neural web search, deep academic and technical research, company profiles, and content extraction via Exa AI API.",
+      "tags": [
+        "exa",
+        "neural-search",
+        "embeddings",
+        "research"
+      ]
+    }
+  }
 }

@@ -1,11 +1,37 @@
 {
   "name": "notion",
-  "displayName": "Notion 知识库协同",
+  "displayName": "Notion",
   "version": "1.0.0",
-  "description": "Notion 知识库与文档集成：搜索文档页面、创建与编辑笔记、查询与更新数据库结构化记录。",
+  "description": "Notion workspace integration: search pages, create and update documents, manage databases, and access your team knowledge base.",
   "author": {
     "name": "FtAi Team / Notion"
   },
   "homepage": "https://developers.notion.com",
-  "skills": ["skills/notion-workspace"]
+  "skills": [
+    "skills/notion-workspace"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "Notion 知识库",
+      "description": "Notion 知识库与文档集成：搜索文档页面、创建与编辑笔记、查询与更新数据库结构化记录。",
+      "tags": [
+        "notion",
+        "知识库",
+        "笔记",
+        "数据库",
+        "协同"
+      ]
+    },
+    "en-US": {
+      "displayName": "Notion Workspace",
+      "description": "Notion workspace integration: search pages, create and update documents, manage databases, and access your team knowledge base.",
+      "tags": [
+        "notion",
+        "workspace",
+        "knowledge-base",
+        "docs",
+        "notes"
+      ]
+    }
+  }
 }

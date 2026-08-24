@@ -1,11 +1,38 @@
 {
   "name": "gitlab",
-  "displayName": "GitLab 研发与流水线",
+  "displayName": "GitLab",
   "version": "1.0.0",
-  "description": "GitLab DevOps 集成：支持自建/官方 GitLab 仓库代码检索、Merge Request 协作与 CI/CD 流水线管理。",
+  "description": "GitLab DevOps platform integration: manage repositories, merge requests, CI/CD pipelines, issues, and wikis for self-hosted and cloud GitLab.",
   "author": {
     "name": "FtAi Team / GitLab"
   },
   "homepage": "https://gitlab.com",
-  "skills": ["skills/gitlab-ci"]
+  "skills": [
+    "skills/gitlab-ci"
+  ],
+  "locales": {
+    "zh-CN": {
+      "displayName": "GitLab 研发与流水线",
+      "description": "GitLab DevOps 集成：支持自建/官方 GitLab 仓库代码检索、Merge Request 协作与 CI/CD 流水线管理。",
+      "tags": [
+        "gitlab",
+        "流水线",
+        "ci-cd",
+        "mr",
+        "代码仓库",
+        "自建git"
+      ]
+    },
+    "en-US": {
+      "displayName": "GitLab DevOps",
+      "description": "GitLab DevOps platform integration: manage repositories, merge requests, CI/CD pipelines, issues, and wikis for self-hosted and cloud GitLab.",
+      "tags": [
+        "gitlab",
+        "devops",
+        "ci-cd",
+        "merge-request",
+        "git"
+      ]
+    }
+  }
 }
