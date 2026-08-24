@@ -113,6 +113,19 @@ node scripts/validate.mjs
 
 ---
 
-## 开源协议
+## 开源协议与知识产权声明 (License & Disclaimers)
 
-本项目基于 [MIT 协议](LICENSE) 开源。各第三方插件及 MCP 服务的具体版权由原作者保留。
+### 1. 开源协议 (License)
+本仓库的架构代码、JSON Schema 及官方提示词模板基于 [MIT 许可证](LICENSE) 授权开源。
+
+### 2. 第三方致谢与上游声明 (Acknowledgements)
+- 本市场规范与 MCP 服务定义深度兼容并借鉴了 [Anthropic Claude Code Plugins](https://github.com/anthropics/claude-plugins-official)（遵循 Apache-2.0 许可证）及 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers)（遵循 MIT 许可证）的开源生态设计。
+- 目录中所列出的第三方插件、MCP 服务端及外部 Git 仓库的版权与开源协议均由各自的原作者或所属公司持有并管理。
+
+### 3. 商标免责声明 (Trademark Disclaimer)
+- 本仓库及插件清单中出现的第三方产品名称、商标、服务标志和品牌徽标（包括但不限于 **Notion**、**GitHub**、**Google Drive**、**GitLab**、**Linear**、**Figma**、**PostgreSQL**、**Redis**、**Docker**、**Microsoft Playwright**、**Slack**、**Sentry**、**Vercel**、**Supabase**、**Tavily**、**Exa** 等）均为其各自所有者的财产。
+- 在本市场中使用这些名称和标识仅用于**兼容性说明、技术集成指引与索引展示**之目的，并不代表本仓库或 FtAi 与这些商标持有人存在任何形式的官方隶属、赞助、合作或背书关系。
+
+### 4. 安全与使用免责 (Security Notice)
+- 本插件市场仅分发配置文件、提示词指令及公开开源服务引用，**不托管或直接重新分发任何第三方的闭源二进制文件或可执行包**。
+- 用户在本地安装第三方 MCP 服务或配置 API 密钥前，应自行审查对应的来源安全性及服务条款。
