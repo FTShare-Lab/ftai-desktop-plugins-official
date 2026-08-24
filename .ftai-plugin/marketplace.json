@@ -54,7 +54,17 @@
         "name": "Notion / Community"
       },
       "source": "./plugins/notion",
-      "homepage": "https://www.notion.so"
+      "homepage": "https://www.notion.so",
+      "skills": ["skills/notion-workspace"],
+      "mcpServers": {
+        "notion": {
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-notion"],
+          "env": {
+            "NOTION_API_KEY": "${NOTION_API_KEY}"
+          }
+        }
+      }
     },
     {
       "name": "github",
@@ -79,7 +89,17 @@
         "name": "GitHub / Anthropic"
       },
       "source": "./plugins/github",
-      "homepage": "https://github.com"
+      "homepage": "https://github.com",
+      "skills": ["skills/github-workflows"],
+      "mcpServers": {
+        "github": {
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-github"],
+          "env": {
+            "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+          }
+        }
+      }
     },
     {
       "name": "google-drive",
@@ -104,7 +124,18 @@
         "name": "Google / Model Context Protocol"
       },
       "source": "./plugins/google-drive",
-      "homepage": "https://drive.google.com"
+      "homepage": "https://drive.google.com",
+      "skills": ["skills/google-drive-sync"],
+      "mcpServers": {
+        "google-drive": {
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-gdrive"],
+          "env": {
+            "GDRIVE_CLIENT_ID": "${GDRIVE_CLIENT_ID}",
+            "GDRIVE_CLIENT_SECRET": "${GDRIVE_CLIENT_SECRET}"
+          }
+        }
+      }
     },
     {
       "name": "gitlab",
@@ -129,7 +160,18 @@
         "name": "GitLab"
       },
       "source": "./plugins/gitlab",
-      "homepage": "https://gitlab.com"
+      "homepage": "https://gitlab.com",
+      "skills": ["skills/gitlab-ci"],
+      "mcpServers": {
+        "gitlab": {
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-gitlab"],
+          "env": {
+            "GITLAB_PERSONAL_ACCESS_TOKEN": "${GITLAB_PERSONAL_ACCESS_TOKEN}",
+            "GITLAB_API_URL": "${GITLAB_API_URL:-https://gitlab.com/api/v4}"
+          }
+        }
+      }
     },
     {
       "name": "linear",
@@ -154,7 +196,17 @@
         "name": "Linear"
       },
       "source": "./plugins/linear",
-      "homepage": "https://linear.app"
+      "homepage": "https://linear.app",
+      "skills": ["skills/linear-tracker"],
+      "mcpServers": {
+        "linear": {
+          "type": "http",
+          "url": "https://mcp.linear.app/mcp",
+          "headers": {
+            "Authorization": "Bearer ${LINEAR_API_KEY}"
+          }
+        }
+      }
     },
     {
       "name": "figma",
@@ -179,7 +231,17 @@
         "name": "Figma"
       },
       "source": "./plugins/figma",
-      "homepage": "https://figma.com"
+      "homepage": "https://figma.com",
+      "skills": ["skills/figma-tokens"],
+      "mcpServers": {
+        "figma": {
+          "command": "npx",
+          "args": ["-y", "figma-mcp-server"],
+          "env": {
+            "FIGMA_ACCESS_TOKEN": "${FIGMA_ACCESS_TOKEN}"
+          }
+        }
+      }
     },
     {
       "name": "postgres",
@@ -204,7 +266,14 @@
         "name": "PostgreSQL Community"
       },
       "source": "./plugins/postgres",
-      "homepage": "https://www.postgresql.org"
+      "homepage": "https://www.postgresql.org",
+      "skills": ["skills/postgres-db"],
+      "mcpServers": {
+        "postgres": {
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-postgres", "${DATABASE_URL}"]
+        }
+      }
     },
     {
       "name": "redis",
@@ -229,7 +298,14 @@
         "name": "Redis Labs"
       },
       "source": "./plugins/redis",
-      "homepage": "https://redis.io"
+      "homepage": "https://redis.io",
+      "skills": ["skills/redis-cache"],
+      "mcpServers": {
+        "redis": {
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-redis", "${REDIS_URL:-redis://localhost:6379}"]
+        }
+      }
     },
     {
       "name": "docker",
@@ -254,7 +330,14 @@
         "name": "Docker"
       },
       "source": "./plugins/docker",
-      "homepage": "https://www.docker.com"
+      "homepage": "https://www.docker.com",
+      "skills": ["skills/docker-ops"],
+      "mcpServers": {
+        "docker": {
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-docker"]
+        }
+      }
     },
     {
       "name": "playwright",
@@ -279,7 +362,14 @@
         "name": "Microsoft"
       },
       "source": "./plugins/playwright",
-      "homepage": "https://playwright.dev"
+      "homepage": "https://playwright.dev",
+      "skills": ["skills/playwright-test"],
+      "mcpServers": {
+        "playwright": {
+          "command": "npx",
+          "args": ["-y", "@playwright/mcp@latest"]
+        }
+      }
     },
     {
       "name": "context7",
@@ -304,7 +394,17 @@
         "name": "Context7"
       },
       "source": "./plugins/context7",
-      "homepage": "https://context7.com"
+      "homepage": "https://context7.com",
+      "skills": ["skills/context7-docs"],
+      "mcpServers": {
+        "context7": {
+          "type": "http",
+          "url": "https://mcp.context7.com/mcp",
+          "headers": {
+            "Authorization": "${CONTEXT7_API_KEY:-}"
+          }
+        }
+      }
     },
     {
       "name": "code-review",
@@ -329,7 +429,8 @@
         "name": "FtAi Team"
       },
       "source": "./plugins/code-review",
-      "homepage": "https://github.com/ftai"
+      "homepage": "https://github.com/ftai",
+      "skills": ["skills/code-review"]
     },
     {
       "name": "frontend-design",
@@ -354,7 +455,8 @@
         "name": "FtAi Team"
       },
       "source": "./plugins/frontend-design",
-      "homepage": "https://github.com/ftai"
+      "homepage": "https://github.com/ftai",
+      "skills": ["skills/frontend-design"]
     },
     {
       "name": "tavily",
@@ -379,7 +481,17 @@
         "name": "Tavily"
       },
       "source": "./plugins/tavily",
-      "homepage": "https://tavily.com"
+      "homepage": "https://tavily.com",
+      "skills": ["skills/tavily-search"],
+      "mcpServers": {
+        "tavily": {
+          "command": "npx",
+          "args": ["-y", "@tavily/mcp-server"],
+          "env": {
+            "TAVILY_API_KEY": "${TAVILY_API_KEY}"
+          }
+        }
+      }
     },
     {
       "name": "exa",
@@ -404,7 +516,17 @@
         "name": "Exa"
       },
       "source": "./plugins/exa",
-      "homepage": "https://exa.ai"
+      "homepage": "https://exa.ai",
+      "skills": ["skills/exa-search"],
+      "mcpServers": {
+        "exa": {
+          "command": "npx",
+          "args": ["-y", "exa-mcp-server"],
+          "env": {
+            "EXA_API_KEY": "${EXA_API_KEY}"
+          }
+        }
+      }
     },
     {
       "name": "supabase",
