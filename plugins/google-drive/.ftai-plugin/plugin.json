@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "Google Drive 云端网盘",
+      "displayName": "Google Drive",
       "description": "Google Drive 云盘与在线文档集成：搜索云端文件、提取 Google Docs / Sheets / Slides 内容、管理文件目录。",
       "tags": [
         "google",
@@ -24,7 +24,7 @@
       ]
     },
     "en-US": {
-      "displayName": "Google Drive Cloud Storage",
+      "displayName": "Google Drive",
       "description": "Google Drive integration: search cloud files, read Google Docs/Sheets, list directories, and manage drive assets directly from AI.",
       "tags": [
         "google",

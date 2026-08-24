@@ -1,6 +1,6 @@
 {
   "name": "tavily",
-  "displayName": "Tavily AI Search",
+  "displayName": "Tavily",
   "version": "1.0.0",
   "description": "AI-native real-time web search and content extraction engine optimized for LLMs and multi-step research tasks.",
   "author": {
@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "Tavily AI 智能搜索",
+      "displayName": "Tavily",
       "description": "专为 AI 设计的高性能实时网络搜索与深度内容爬取引擎，支持上下文精准过滤与多源内容总结。",
       "tags": [
         "搜索",
@@ -23,7 +23,7 @@
       ]
     },
     "en-US": {
-      "displayName": "Tavily AI Search",
+      "displayName": "Tavily",
       "description": "AI-native real-time web search and content extraction engine optimized for LLMs and multi-step research tasks.",
       "tags": [
         "search",

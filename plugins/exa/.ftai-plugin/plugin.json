@@ -1,6 +1,6 @@
 {
   "name": "exa",
-  "displayName": "Exa Neural Search",
+  "displayName": "Exa",
   "version": "1.0.0",
   "description": "Neural web search, deep academic and technical research, company profiles, and content extraction via Exa AI API.",
   "author": {
@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "Exa 神经搜索引擎",
+      "displayName": "Exa",
       "description": "基于语义嵌入的深度神经网络搜索引擎：深度学术文献检索、公司与竞品调研、技术架构分析与高质量代码查找。",
       "tags": [
         "exa",
@@ -23,7 +23,7 @@
       ]
     },
     "en-US": {
-      "displayName": "Exa Neural Search",
+      "displayName": "Exa",
       "description": "Neural web search, deep academic and technical research, company profiles, and content extraction via Exa AI API.",
       "tags": [
         "exa",

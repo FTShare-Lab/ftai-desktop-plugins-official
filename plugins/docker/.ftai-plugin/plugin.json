@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "Docker 容器管理",
+      "displayName": "Docker",
       "description": "Docker 容器与镜像管理：查看运行中容器状态、拉取日志、检查网络与卷、辅助编写 Dockerfile 及 Compose 配置。",
       "tags": [
         "docker",
@@ -24,7 +24,7 @@
       ]
     },
     "en-US": {
-      "displayName": "Docker Container Ops",
+      "displayName": "Docker",
       "description": "Docker container & compose management: inspect running containers, view logs, manage images, and generate Dockerfiles / Compose configurations.",
       "tags": [
         "docker",

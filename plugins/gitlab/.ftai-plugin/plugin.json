@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "GitLab 研发与流水线",
+      "displayName": "GitLab",
       "description": "GitLab DevOps 集成：支持自建/官方 GitLab 仓库代码检索、Merge Request 协作与 CI/CD 流水线管理。",
       "tags": [
         "gitlab",
@@ -24,7 +24,7 @@
       ]
     },
     "en-US": {
-      "displayName": "GitLab DevOps",
+      "displayName": "GitLab",
       "description": "GitLab DevOps platform integration: manage repositories, merge requests, CI/CD pipelines, issues, and wikis for self-hosted and cloud GitLab.",
       "tags": [
         "gitlab",

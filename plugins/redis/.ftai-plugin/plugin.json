@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "Redis 缓存管理",
+      "displayName": "Redis",
       "description": "Redis 内存存储与缓存调试：查看键空间分布、读取键值与 TTL、监控内存使用与排查缓存穿透问题。",
       "tags": [
         "redis",
@@ -24,7 +24,7 @@
       ]
     },
     "en-US": {
-      "displayName": "Redis Cache Manager",
+      "displayName": "Redis",
       "description": "Redis memory store integration: inspect cache keys, monitor memory usage, debug pub/sub channels, and inspect TTL / data structures.",
       "tags": [
         "redis",

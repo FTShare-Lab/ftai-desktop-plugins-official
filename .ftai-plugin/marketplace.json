@@ -40,12 +40,12 @@
       "tags": ["notion", "workspace", "knowledge-base", "docs", "notes"],
       "locales": {
         "zh-CN": {
-          "displayName": "Notion 知识库",
+          "displayName": "Notion",
           "description": "Notion 知识库与文档集成：搜索文档页面、创建与编辑笔记、查询与更新数据库结构化记录。",
           "tags": ["notion", "知识库", "笔记", "数据库", "协同"]
         },
         "en-US": {
-          "displayName": "Notion Workspace",
+          "displayName": "Notion",
           "description": "Notion workspace integration: search pages, create and update documents, manage databases, and access your team knowledge base.",
           "tags": ["notion", "workspace", "knowledge-base", "docs", "notes"]
         }
@@ -65,12 +65,12 @@
       "tags": ["github", "git", "pull-request", "issue", "devops"],
       "locales": {
         "zh-CN": {
-          "displayName": "GitHub 研发协同",
+          "displayName": "GitHub",
           "description": "GitHub 仓库与协作管理：查看 Issue、提交 Pull Request、分析代码提交历史、管理 Release 等。",
           "tags": ["github", "git", "代码仓库", "pr", "issue", "协作"]
         },
         "en-US": {
-          "displayName": "GitHub Collaboration",
+          "displayName": "GitHub",
           "description": "Official GitHub integration for repository management: create issues, manage PRs, review code, search repositories and commits.",
           "tags": ["github", "git", "pull-request", "issue", "devops"]
         }
@@ -90,12 +90,12 @@
       "tags": ["google", "gdrive", "docs", "sheets", "cloud-storage"],
       "locales": {
         "zh-CN": {
-          "displayName": "Google Drive 云端网盘",
+          "displayName": "Google Drive",
           "description": "Google Drive 云盘与在线文档集成：搜索云端文件、提取 Google Docs / Sheets / Slides 内容、管理文件目录。",
           "tags": ["google", "网盘", "云盘", "文档", "表格", "云存储"]
         },
         "en-US": {
-          "displayName": "Google Drive Cloud Storage",
+          "displayName": "Google Drive",
           "description": "Google Drive integration: search cloud files, read Google Docs/Sheets, list directories, and manage drive assets directly from AI.",
           "tags": ["google", "gdrive", "docs", "sheets", "cloud-storage"]
         }
@@ -115,12 +115,12 @@
       "tags": ["gitlab", "devops", "ci-cd", "merge-request", "git"],
       "locales": {
         "zh-CN": {
-          "displayName": "GitLab 研发与流水线",
+          "displayName": "GitLab",
           "description": "GitLab DevOps 集成：支持自建/官方 GitLab 仓库代码检索、Merge Request 协作与 CI/CD 流水线管理。",
           "tags": ["gitlab", "流水线", "ci-cd", "mr", "代码仓库", "自建git"]
         },
         "en-US": {
-          "displayName": "GitLab DevOps",
+          "displayName": "GitLab",
           "description": "GitLab DevOps platform integration: manage repositories, merge requests, CI/CD pipelines, issues, and wikis for self-hosted and cloud GitLab.",
           "tags": ["gitlab", "devops", "ci-cd", "merge-request", "git"]
         }
@@ -140,12 +140,12 @@
       "tags": ["linear", "issue-tracker", "project-management", "agile"],
       "locales": {
         "zh-CN": {
-          "displayName": "Linear 项目管理",
+          "displayName": "Linear",
           "description": "Linear 敏捷项目与任务管理集成：创建任务、追踪 Sprint 迭代、更新状态与关联 Git 分支。",
           "tags": ["linear", "敏捷开发", "项目管理", "任务看板", "issue"]
         },
         "en-US": {
-          "displayName": "Linear Project Tracking",
+          "displayName": "Linear",
           "description": "Linear project management integration: create issues, track sprint cycles, update project statuses, and search team workspaces.",
           "tags": ["linear", "issue-tracker", "project-management", "agile"]
         }
@@ -165,12 +165,12 @@
       "tags": ["figma", "design", "ui-ux", "tokens", "css"],
       "locales": {
         "zh-CN": {
-          "displayName": "Figma 设计协同",
+          "displayName": "Figma",
           "description": "Figma 设计稿解析与代码还原：提取设计 Token、组件树、布局约束并转换为 Tailwind CSS / Vue / React 代码。",
           "tags": ["figma", "设计稿", "ui设计", "设计规范", "tokens", "前端还原"]
         },
         "en-US": {
-          "displayName": "Figma Design System",
+          "displayName": "Figma",
           "description": "Figma design system integration: inspect design files, extract component trees, read design tokens, and convert designs into clean UI code.",
           "tags": ["figma", "design", "ui-ux", "tokens", "css"]
         }
@@ -190,12 +190,12 @@
       "tags": ["postgres", "postgresql", "sql", "database", "rdbms"],
       "locales": {
         "zh-CN": {
-          "displayName": "PostgreSQL 数据库",
+          "displayName": "PostgreSQL",
           "description": "PostgreSQL 数据库管理：查看表结构与索引、执行分析型查询、诊断慢查询与辅助编写迁移脚本。",
           "tags": ["postgres", "postgresql", "数据库", "sql", "表结构", "索引"]
         },
         "en-US": {
-          "displayName": "PostgreSQL Database",
+          "displayName": "PostgreSQL",
           "description": "PostgreSQL database management: inspect schemas, execute safe analytical queries, analyze table indices, and generate migrations.",
           "tags": ["postgres", "postgresql", "sql", "database", "rdbms"]
         }
@@ -215,12 +215,12 @@
       "tags": ["redis", "cache", "key-value", "in-memory", "nosql"],
       "locales": {
         "zh-CN": {
-          "displayName": "Redis 缓存管理",
+          "displayName": "Redis",
           "description": "Redis 内存存储与缓存调试：查看键空间分布、读取键值与 TTL、监控内存使用与排查缓存穿透问题。",
           "tags": ["redis", "缓存", "内存数据库", "key-value", "nosql", "ttl"]
         },
         "en-US": {
-          "displayName": "Redis Cache Manager",
+          "displayName": "Redis",
           "description": "Redis memory store integration: inspect cache keys, monitor memory usage, debug pub/sub channels, and inspect TTL / data structures.",
           "tags": ["redis", "cache", "key-value", "in-memory", "nosql"]
         }
@@ -240,12 +240,12 @@
       "tags": ["docker", "containers", "compose", "devops", "deployment"],
       "locales": {
         "zh-CN": {
-          "displayName": "Docker 容器管理",
+          "displayName": "Docker",
           "description": "Docker 容器与镜像管理：查看运行中容器状态、拉取日志、检查网络与卷、辅助编写 Dockerfile 及 Compose 配置。",
           "tags": ["docker", "容器", "镜像", "compose", "运维", "部署"]
         },
         "en-US": {
-          "displayName": "Docker Container Ops",
+          "displayName": "Docker",
           "description": "Docker container & compose management: inspect running containers, view logs, manage images, and generate Dockerfiles / Compose configurations.",
           "tags": ["docker", "containers", "compose", "devops", "deployment"]
         }
@@ -265,12 +265,12 @@
       "tags": ["playwright", "testing", "browser", "automation", "e2e"],
       "locales": {
         "zh-CN": {
-          "displayName": "Playwright 浏览器自动化",
+          "displayName": "Playwright",
           "description": "Playwright 端到端测试与浏览器交互：加载网页、模拟用户点击与表单输入、捕获屏幕截图与控制台报错。",
           "tags": ["playwright", "端到端测试", "浏览器自动化", "截图验证", "e2e"]
         },
         "en-US": {
-          "displayName": "Playwright Browser Automation",
+          "displayName": "Playwright",
           "description": "End-to-end browser automation & testing: interact with live web apps, take screenshots, assert DOM elements, and simulate user workflows.",
           "tags": ["playwright", "testing", "browser", "automation", "e2e"]
         }
@@ -283,19 +283,19 @@
     },
     {
       "name": "context7",
-      "displayName": "Context7 Documentation",
+      "displayName": "Context7",
       "description": "Up-to-date documentation search for hundreds of frameworks and libraries (React, Vue, Tailwind, Next.js, Rust, Python, Go, etc.).",
       "version": "1.0.0",
       "category": "development",
       "tags": ["docs", "documentation", "context7", "frameworks", "api"],
       "locales": {
         "zh-CN": {
-          "displayName": "Context7 技术文档库",
+          "displayName": "Context7",
           "description": "Context7 技术文档实时查询：获取 React、Vue、Tailwind、Next.js、Prisma、Rust 等数百个前沿技术栈的官方最新文档。",
           "tags": ["文档", "技术文档", "api参考", "框架", "context7", "语法查询"]
         },
         "en-US": {
-          "displayName": "Context7 Documentation Hub",
+          "displayName": "Context7",
           "description": "Up-to-date documentation search for hundreds of frameworks and libraries (React, Vue, Tailwind, Next.js, Rust, Python, Go, etc.).",
           "tags": ["docs", "documentation", "context7", "frameworks", "api"]
         }
@@ -308,19 +308,19 @@
     },
     {
       "name": "code-review",
-      "displayName": "Code Review Toolkit",
+      "displayName": "Code Review",
       "description": "Comprehensive multi-perspective code reviewer: reviews git diffs for correctness, security, architectural consistency, and test coverage.",
       "version": "1.0.0",
       "category": "development",
       "tags": ["code-review", "git", "quality", "security", "best-practices"],
       "locales": {
         "zh-CN": {
-          "displayName": "代码审查专家 (Code Review)",
+          "displayName": "代码审查",
           "description": "自动化高质量代码审查：针对 Git Diff 全面评估代码正确性、并发安全、异常边界、性能瓶颈与架构整洁度。",
           "tags": ["代码审查", "code-review", "质量保障", "安全审计", "diff审查"]
         },
         "en-US": {
-          "displayName": "Code Review Toolkit",
+          "displayName": "Code Review",
           "description": "Comprehensive multi-perspective code reviewer: reviews git diffs for correctness, security, architectural consistency, and test coverage.",
           "tags": ["code-review", "git", "quality", "security", "best-practices"]
         }
@@ -333,19 +333,19 @@
     },
     {
       "name": "frontend-design",
-      "displayName": "Frontend Design Pro",
+      "displayName": "Frontend Design",
       "description": "Craft distinctive, production-ready frontend interfaces with top-tier typography, cohesive color token systems, and accessible components.",
       "version": "1.0.0",
       "category": "design",
       "tags": ["frontend", "ui", "tailwind", "design-system", "vue", "react"],
       "locales": {
         "zh-CN": {
-          "displayName": "前端高质感设计 (Frontend Design Pro)",
+          "displayName": "前端设计",
           "description": "打造高质感、现代且符合无障碍规范的前端界面：严谨的排版字阶、语义化颜色 Token、细腻动画与响应式布局。",
           "tags": ["前端设计", "ui", "ux", "tailwind", "组件开发", "设计规范"]
         },
         "en-US": {
-          "displayName": "Frontend Design Pro",
+          "displayName": "Frontend Design",
           "description": "Craft distinctive, production-ready frontend interfaces with top-tier typography, cohesive color token systems, and accessible components.",
           "tags": ["frontend", "ui", "tailwind", "design-system", "vue", "react"]
         }
@@ -358,19 +358,19 @@
     },
     {
       "name": "tavily",
-      "displayName": "Tavily AI Search",
+      "displayName": "Tavily",
       "description": "AI-native real-time web search and content extraction engine optimized for LLMs and multi-step research tasks.",
       "version": "1.0.0",
       "category": "ai-search",
       "tags": ["search", "web-search", "tavily", "crawler", "research"],
       "locales": {
         "zh-CN": {
-          "displayName": "Tavily AI 智能搜索",
+          "displayName": "Tavily",
           "description": "专为 AI 设计的高性能实时网络搜索与深度内容爬取引擎，支持上下文精准过滤与多源内容总结。",
           "tags": ["搜索", "网络搜索", "实时信息", "网页爬取", "tavily"]
         },
         "en-US": {
-          "displayName": "Tavily AI Search",
+          "displayName": "Tavily",
           "description": "AI-native real-time web search and content extraction engine optimized for LLMs and multi-step research tasks.",
           "tags": ["search", "web-search", "tavily", "crawler", "research"]
         }
@@ -383,19 +383,19 @@
     },
     {
       "name": "exa",
-      "displayName": "Exa Neural Search",
+      "displayName": "Exa",
       "description": "Neural web search, deep academic and technical research, company profiles, and content extraction via Exa AI API.",
       "version": "1.0.0",
       "category": "ai-search",
       "tags": ["exa", "neural-search", "embeddings", "research"],
       "locales": {
         "zh-CN": {
-          "displayName": "Exa 神经搜索引擎",
+          "displayName": "Exa",
           "description": "基于语义嵌入的深度神经网络搜索引擎：深度学术文献检索、公司与竞品调研、技术架构分析与高质量代码查找。",
           "tags": ["exa", "神经搜索", "语义检索", "学术文献", "技术调研"]
         },
         "en-US": {
-          "displayName": "Exa Neural Search",
+          "displayName": "Exa",
           "description": "Neural web search, deep academic and technical research, company profiles, and content extraction via Exa AI API.",
           "tags": ["exa", "neural-search", "embeddings", "research"]
         }
@@ -415,12 +415,12 @@
       "tags": ["supabase", "postgres", "auth", "storage", "backend"],
       "locales": {
         "zh-CN": {
-          "displayName": "Supabase 全栈后端",
+          "displayName": "Supabase",
           "description": "Supabase BaaS 集成：查询云端 PostgreSQL、管理数据库表模式、管理 Storage 存储桶与调试 Edge Functions。",
           "tags": ["supabase", "postgres", "后端服务", "数据库", "鉴权", "云存储"]
         },
         "en-US": {
-          "displayName": "Supabase Platform",
+          "displayName": "Supabase",
           "description": "Supabase BaaS integration: query PostgreSQL, manage database schema, view storage buckets, and test Edge Functions.",
           "tags": ["supabase", "postgres", "auth", "storage", "backend"]
         }
@@ -443,12 +443,12 @@
       "tags": ["slack", "chat", "notifications", "collaboration"],
       "locales": {
         "zh-CN": {
-          "displayName": "Slack 团队协同",
+          "displayName": "Slack",
           "description": "Slack 工作区集成：检索频道消息历史、查看讨论 Thread、从研发工作流发送自动化通知。",
           "tags": ["slack", "团队协作", "消息通知", "群聊", "即时通讯"]
         },
         "en-US": {
-          "displayName": "Slack Workspace",
+          "displayName": "Slack",
           "description": "Slack workspace communication: search message threads, retrieve channel history, and post notifications from dev workflows.",
           "tags": ["slack", "chat", "notifications", "collaboration"]
         }
@@ -471,12 +471,12 @@
       "tags": ["vercel", "nextjs", "serverless", "deployment", "hosting"],
       "locales": {
         "zh-CN": {
-          "displayName": "Vercel 云端部署",
+          "displayName": "Vercel",
           "description": "Vercel 前端云集成：查看项目部署状态、拉取构建日志、配置域名路由与监控 Serverless 函数指标。",
           "tags": ["vercel", "前端部署", "nextjs", "serverless", "域名路由"]
         },
         "en-US": {
-          "displayName": "Vercel Cloud Platform",
+          "displayName": "Vercel",
           "description": "Vercel frontend cloud integration: inspect deployments, review build logs, manage domain routes, and monitor serverless functions.",
           "tags": ["vercel", "nextjs", "serverless", "deployment", "hosting"]
         }
@@ -499,12 +499,12 @@
       "tags": ["sentry", "errors", "stacktrace", "apm", "monitoring"],
       "locales": {
         "zh-CN": {
-          "displayName": "Sentry 异常监控",
+          "displayName": "Sentry",
           "description": "Sentry 错误与性能监控：检索线上 Crash 报告、分析调用堆栈、将生产异常精确定位到源代码行。",
           "tags": ["sentry", "异常监控", "堆栈排查", "崩溃日志", "性能诊断"]
         },
         "en-US": {
-          "displayName": "Sentry Monitoring",
+          "displayName": "Sentry",
           "description": "Sentry error & performance monitoring: query crash reports, analyze stack traces, and correlate production exceptions with source code.",
           "tags": ["sentry", "errors", "stacktrace", "apm", "monitoring"]
         }
@@ -520,19 +520,19 @@
     },
     {
       "name": "superpowers",
-      "displayName": "Superpowers Dev Suite",
+      "displayName": "Superpowers",
       "description": "Advanced software engineering methodology toolkit: Systematic Debugging, Red-Green TDD, Brainstorming, and Subagent Delegation.",
       "version": "1.0.0",
       "category": "development",
       "tags": ["tdd", "debugging", "subagents", "methodology", "architecture"],
       "locales": {
         "zh-CN": {
-          "displayName": "Superpowers 软件工程方法论",
+          "displayName": "Superpowers",
           "description": "高级软件工程开发方法论套件：系统化排错、红绿测试驱动开发 (TDD)、头脑风暴与子代理委派协作体系。",
           "tags": ["tdd", "测试驱动开发", "系统化排错", "头脑风暴", "工程方法论"]
         },
         "en-US": {
-          "displayName": "Superpowers Dev Suite",
+          "displayName": "Superpowers",
           "description": "Advanced software engineering methodology toolkit: Systematic Debugging, Red-Green TDD, Brainstorming, and Subagent Delegation.",
           "tags": ["tdd", "debugging", "subagents", "methodology", "architecture"]
         }

@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "validate": "node scripts/validate.mjs",
+    "generate": "node scripts/generate-marketplace.mjs",
     "test": "node scripts/validate.mjs"
   },
   "keywords": [

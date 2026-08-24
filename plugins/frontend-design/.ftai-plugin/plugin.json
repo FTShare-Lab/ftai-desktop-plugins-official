@@ -1,6 +1,6 @@
 {
   "name": "frontend-design",
-  "displayName": "Frontend Design Pro",
+  "displayName": "Frontend Design",
   "version": "1.0.0",
   "description": "Craft distinctive, production-ready frontend interfaces with top-tier typography, cohesive color token systems, and accessible components.",
   "author": {
@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "前端高质感设计 (Frontend Design Pro)",
+      "displayName": "前端设计",
       "description": "打造高质感、现代且符合无障碍规范的前端界面：严谨的排版字阶、语义化颜色 Token、细腻动画与响应式布局。",
       "tags": [
         "前端设计",
@@ -24,7 +24,7 @@
       ]
     },
     "en-US": {
-      "displayName": "Frontend Design Pro",
+      "displayName": "Frontend Design",
       "description": "Craft distinctive, production-ready frontend interfaces with top-tier typography, cohesive color token systems, and accessible components.",
       "tags": [
         "frontend",

@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "GitHub 研发协同",
+      "displayName": "GitHub",
       "description": "GitHub 仓库与协作管理：查看 Issue、提交 Pull Request、分析代码提交历史、管理 Release 等。",
       "tags": [
         "github",
@@ -24,7 +24,7 @@
       ]
     },
     "en-US": {
-      "displayName": "GitHub Collaboration",
+      "displayName": "GitHub",
       "description": "Official GitHub integration for repository management: create issues, manage PRs, review code, search repositories and commits.",
       "tags": [
         "github",

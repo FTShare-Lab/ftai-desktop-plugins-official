@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "Notion 知识库",
+      "displayName": "Notion",
       "description": "Notion 知识库与文档集成：搜索文档页面、创建与编辑笔记、查询与更新数据库结构化记录。",
       "tags": [
         "notion",
@@ -23,7 +23,7 @@
       ]
     },
     "en-US": {
-      "displayName": "Notion Workspace",
+      "displayName": "Notion",
       "description": "Notion workspace integration: search pages, create and update documents, manage databases, and access your team knowledge base.",
       "tags": [
         "notion",

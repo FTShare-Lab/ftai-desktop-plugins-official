@@ -1,6 +1,6 @@
 {
   "name": "context7",
-  "displayName": "Context7 Documentation",
+  "displayName": "Context7",
   "version": "1.0.0",
   "description": "Up-to-date documentation search for hundreds of frameworks and libraries (React, Vue, Tailwind, Next.js, Rust, Python, Go, etc.).",
   "author": {
@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "Context7 技术文档库",
+      "displayName": "Context7",
       "description": "Context7 技术文档实时查询：获取 React、Vue、Tailwind、Next.js、Prisma、Rust 等数百个前沿技术栈的官方最新文档。",
       "tags": [
         "文档",
@@ -24,7 +24,7 @@
       ]
     },
     "en-US": {
-      "displayName": "Context7 Documentation Hub",
+      "displayName": "Context7",
       "description": "Up-to-date documentation search for hundreds of frameworks and libraries (React, Vue, Tailwind, Next.js, Rust, Python, Go, etc.).",
       "tags": [
         "docs",

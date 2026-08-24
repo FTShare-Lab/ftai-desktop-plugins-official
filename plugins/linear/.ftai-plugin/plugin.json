@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "Linear 项目管理",
+      "displayName": "Linear",
       "description": "Linear 敏捷项目与任务管理集成：创建任务、追踪 Sprint 迭代、更新状态与关联 Git 分支。",
       "tags": [
         "linear",
@@ -23,7 +23,7 @@
       ]
     },
     "en-US": {
-      "displayName": "Linear Project Tracking",
+      "displayName": "Linear",
       "description": "Linear project management integration: create issues, track sprint cycles, update project statuses, and search team workspaces.",
       "tags": [
         "linear",

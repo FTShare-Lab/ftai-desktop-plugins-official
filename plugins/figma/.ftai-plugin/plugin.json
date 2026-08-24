@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "Figma 设计协同",
+      "displayName": "Figma",
       "description": "Figma 设计稿解析与代码还原：提取设计 Token、组件树、布局约束并转换为 Tailwind CSS / Vue / React 代码。",
       "tags": [
         "figma",
@@ -24,7 +24,7 @@
       ]
     },
     "en-US": {
-      "displayName": "Figma Design System",
+      "displayName": "Figma",
       "description": "Figma design system integration: inspect design files, extract component trees, read design tokens, and convert designs into clean UI code.",
       "tags": [
         "figma",

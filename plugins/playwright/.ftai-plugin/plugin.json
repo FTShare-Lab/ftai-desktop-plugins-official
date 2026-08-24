@@ -12,7 +12,7 @@
   ],
   "locales": {
     "zh-CN": {
-      "displayName": "Playwright 浏览器自动化",
+      "displayName": "Playwright",
       "description": "Playwright 端到端测试与浏览器交互：加载网页、模拟用户点击与表单输入、捕获屏幕截图与控制台报错。",
       "tags": [
         "playwright",
@@ -23,7 +23,7 @@
       ]
     },
     "en-US": {
-      "displayName": "Playwright Browser Automation",
+      "displayName": "Playwright",
       "description": "End-to-end browser automation & testing: interact with live web apps, take screenshots, assert DOM elements, and simulate user workflows.",
       "tags": [
         "playwright",
