@@ -1,0 +1,11 @@
+{
+  "name": "github",
+  "displayName": "GitHub 研发协同",
+  "version": "1.0.0",
+  "description": "GitHub 仓库与协作管理：查看 Issue、提交 Pull Request、分析代码提交历史、管理 Release 等。",
+  "author": {
+    "name": "FtAi Team / GitHub"
+  },
+  "homepage": "https://github.com",
+  "skills": ["skills/github-workflows"]
+}

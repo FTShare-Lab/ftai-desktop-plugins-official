@@ -1,0 +1,11 @@
+{
+  "name": "gitlab",
+  "displayName": "GitLab 研发与流水线",
+  "version": "1.0.0",
+  "description": "GitLab DevOps 集成：支持自建/官方 GitLab 仓库代码检索、Merge Request 协作与 CI/CD 流水线管理。",
+  "author": {
+    "name": "FtAi Team / GitLab"
+  },
+  "homepage": "https://gitlab.com",
+  "skills": ["skills/gitlab-ci"]
+}

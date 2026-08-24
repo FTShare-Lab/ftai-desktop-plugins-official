@@ -1,0 +1,11 @@
+{
+  "name": "playwright",
+  "displayName": "Playwright 浏览器自动化",
+  "version": "1.0.0",
+  "description": "Playwright 端到端测试与浏览器交互：加载网页、模拟用户点击与表单输入、捕获屏幕截图与控制台报错。",
+  "author": {
+    "name": "FtAi Team / Microsoft"
+  },
+  "homepage": "https://playwright.dev",
+  "skills": ["skills/playwright-test"]
+}

@@ -1,0 +1,116 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ftai-plugins-official",
+  "description": "Curated directory of high-quality plugins, MCP servers, and Skills for FtAi Desktop and Claude Code developers.",
+  "owner": {
+    "name": "FtAi Team",
+    "email": "support@ftai.dev"
+  },
+  "plugins": [
+    {
+      "name": "notion",
+      "description": "Notion workspace integration: search pages, create and update documents, manage databases, and access your team knowledge base.",
+      "category": "productivity",
+      "source": "./plugins/notion",
+      "homepage": "https://www.notion.so"
+    },
+    {
+      "name": "github",
+      "description": "Official GitHub integration for repository management: create issues, manage PRs, review code, search repositories and commits.",
+      "category": "productivity",
+      "source": "./plugins/github",
+      "homepage": "https://github.com"
+    },
+    {
+      "name": "google-drive",
+      "description": "Google Drive integration: search cloud files, read Google Docs/Sheets, list directories, and manage drive assets directly from AI.",
+      "category": "productivity",
+      "source": "./plugins/google-drive",
+      "homepage": "https://drive.google.com"
+    },
+    {
+      "name": "gitlab",
+      "description": "GitLab DevOps platform integration: manage repositories, merge requests, CI/CD pipelines, issues, and wikis for self-hosted and cloud GitLab.",
+      "category": "productivity",
+      "source": "./plugins/gitlab",
+      "homepage": "https://gitlab.com"
+    },
+    {
+      "name": "linear",
+      "description": "Linear project management integration: create issues, track sprint cycles, update project statuses, and search team workspaces.",
+      "category": "productivity",
+      "source": "./plugins/linear",
+      "homepage": "https://linear.app"
+    },
+    {
+      "name": "figma",
+      "description": "Figma design system integration: inspect design files, extract component trees, read design tokens, and convert designs into clean UI code.",
+      "category": "design",
+      "source": "./plugins/figma",
+      "homepage": "https://figma.com"
+    },
+    {
+      "name": "postgres",
+      "description": "PostgreSQL database management: inspect schemas, execute safe analytical queries, analyze table indices, and generate migrations.",
+      "category": "database",
+      "source": "./plugins/postgres",
+      "homepage": "https://www.postgresql.org"
+    },
+    {
+      "name": "redis",
+      "description": "Redis memory store integration: inspect cache keys, monitor memory usage, debug pub/sub channels, and inspect TTL / data structures.",
+      "category": "database",
+      "source": "./plugins/redis",
+      "homepage": "https://redis.io"
+    },
+    {
+      "name": "docker",
+      "description": "Docker container & compose management: inspect running containers, view logs, manage images, and generate Dockerfiles / Compose configurations.",
+      "category": "deployment",
+      "source": "./plugins/docker",
+      "homepage": "https://www.docker.com"
+    },
+    {
+      "name": "playwright",
+      "description": "End-to-end browser automation & testing: interact with live web apps, take screenshots, assert DOM elements, and simulate user workflows.",
+      "category": "testing",
+      "source": "./plugins/playwright",
+      "homepage": "https://playwright.dev"
+    },
+    {
+      "name": "context7",
+      "description": "Up-to-date documentation search for hundreds of frameworks and libraries (React, Vue, Tailwind, Next.js, Rust, Python, Go, etc.).",
+      "category": "development",
+      "source": "./plugins/context7",
+      "homepage": "https://context7.com"
+    },
+    {
+      "name": "code-review",
+      "description": "Comprehensive multi-perspective code reviewer: reviews git diffs for correctness, security, architectural consistency, and test coverage.",
+      "category": "development",
+      "source": "./plugins/code-review",
+      "homepage": "https://github.com/ftai"
+    },
+    {
+      "name": "frontend-design",
+      "description": "Craft distinctive, production-ready frontend interfaces with top-tier typography, cohesive color token systems, and accessible components.",
+      "category": "design",
+      "source": "./plugins/frontend-design",
+      "homepage": "https://github.com/ftai"
+    },
+    {
+      "name": "tavily",
+      "description": "AI-native real-time web search and content extraction engine optimized for LLMs and multi-step research tasks.",
+      "category": "development",
+      "source": "./plugins/tavily",
+      "homepage": "https://tavily.com"
+    },
+    {
+      "name": "exa",
+      "description": "Neural web search, deep academic and technical research, company profiles, and content extraction via Exa AI API.",
+      "category": "development",
+      "source": "./plugins/exa",
+      "homepage": "https://exa.ai"
+    }
+  ]
+}

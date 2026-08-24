@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "redis": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-redis", "${REDIS_URL:-redis://localhost:6379}"]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tavily",
+  "displayName": "Tavily AI 智能搜索",
+  "version": "1.0.0",
+  "description": "专为 AI 设计的高性能实时网络搜索与深度内容爬取引擎，支持上下文精准过滤与多源内容总结。",
+  "author": {
+    "name": "FtAi Team / Tavily"
+  },
+  "homepage": "https://tavily.com",
+  "skills": ["skills/tavily-search"]
+}

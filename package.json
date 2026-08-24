@@ -1,0 +1,22 @@
+{
+  "name": "ftai-plugins-official",
+  "version": "1.0.0",
+  "description": "Official Plugin Registry and Marketplace for FtAi Desktop & Claude Code ecosystem",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/validate.mjs"
+  },
+  "keywords": [
+    "ftai",
+    "plugins",
+    "marketplace",
+    "registry",
+    "mcp",
+    "skills",
+    "ai"
+  ],
+  "author": "FtAi Team",
+  "license": "MIT"
+}

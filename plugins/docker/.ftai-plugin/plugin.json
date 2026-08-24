@@ -1,0 +1,11 @@
+{
+  "name": "docker",
+  "displayName": "Docker 容器管理",
+  "version": "1.0.0",
+  "description": "Docker 容器与镜像管理：查看运行中容器状态、拉取日志、检查网络与卷、辅助编写 Dockerfile 及 Compose 配置。",
+  "author": {
+    "name": "FtAi Team / Docker"
+  },
+  "homepage": "https://www.docker.com",
+  "skills": ["skills/docker-ops"]
+}

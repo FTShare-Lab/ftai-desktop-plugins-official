@@ -1,0 +1,11 @@
+{
+  "name": "code-review",
+  "displayName": "代码审查专家 (Code Review)",
+  "version": "1.0.0",
+  "description": "自动化高质量代码审查：针对 Git Diff 全面评估代码正确性、并发安全、异常边界、性能瓶颈与架构整洁度。",
+  "author": {
+    "name": "FtAi Team"
+  },
+  "homepage": "https://github.com/ftai",
+  "skills": ["skills/code-review"]
+}

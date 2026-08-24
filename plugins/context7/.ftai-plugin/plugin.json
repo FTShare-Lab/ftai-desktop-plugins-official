@@ -1,0 +1,11 @@
+{
+  "name": "context7",
+  "displayName": "Context7 技术文档库",
+  "version": "1.0.0",
+  "description": "Context7 技术文档实时查询：获取 React、Vue、Tailwind、Next.js、Prisma、Rust 等数百个前沿技术栈的官方最新文档。",
+  "author": {
+    "name": "FtAi Team / Context7"
+  },
+  "homepage": "https://context7.com",
+  "skills": ["skills/context7-docs"]
+}

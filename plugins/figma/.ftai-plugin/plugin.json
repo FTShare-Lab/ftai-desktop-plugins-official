@@ -1,0 +1,11 @@
+{
+  "name": "figma",
+  "displayName": "Figma 设计协同",
+  "version": "1.0.0",
+  "description": "Figma 设计稿解析与代码还原：提取设计 Token、组件树、布局约束并转换为 Tailwind CSS / Vue / React 代码。",
+  "author": {
+    "name": "FtAi Team / Figma"
+  },
+  "homepage": "https://figma.com",
+  "skills": ["skills/figma-tokens"]
+}

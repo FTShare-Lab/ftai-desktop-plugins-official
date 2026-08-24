@@ -1,0 +1,302 @@
+{
+  "$schema": "./schemas/marketplace.schema.json",
+  "name": "ftai-plugins-official",
+  "displayName": "FtAi Official Plugin Marketplace",
+  "description": "Curated directory of high-quality plugins, MCP servers, and Skills for FtAi Desktop and Claude Code developers.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "FtAi Team",
+    "url": "https://github.com/ftai"
+  },
+  "categories": [
+    "productivity",
+    "development",
+    "database",
+    "design",
+    "testing",
+    "monitoring",
+    "security",
+    "ai-search",
+    "deployment"
+  ],
+  "plugins": [
+    {
+      "name": "notion",
+      "displayName": "Notion",
+      "description": "Notion workspace integration: search pages, create and update documents, manage databases, and access your team knowledge base.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["notion", "workspace", "knowledge-base", "docs", "notes"],
+      "author": {
+        "name": "Notion / Community"
+      },
+      "source": "./plugins/notion",
+      "homepage": "https://www.notion.so",
+      "repository": "https://github.com/makenotion/claude-code-notion-plugin"
+    },
+    {
+      "name": "github",
+      "displayName": "GitHub",
+      "description": "Official GitHub integration for repository management: create issues, manage PRs, review code, search repositories and commits.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["github", "git", "pull-request", "issue", "devops"],
+      "author": {
+        "name": "GitHub / Anthropic"
+      },
+      "source": "./plugins/github",
+      "homepage": "https://github.com",
+      "repository": "https://github.com/github/copilot-cli"
+    },
+    {
+      "name": "google-drive",
+      "displayName": "Google Drive",
+      "description": "Google Drive integration: search cloud files, read Google Docs/Sheets, list directories, and manage drive assets directly from AI.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["google", "gdrive", "docs", "sheets", "cloud-storage"],
+      "author": {
+        "name": "Google / Model Context Protocol"
+      },
+      "source": "./plugins/google-drive",
+      "homepage": "https://drive.google.com",
+      "repository": "https://github.com/modelcontextprotocol/servers"
+    },
+    {
+      "name": "gitlab",
+      "displayName": "GitLab",
+      "description": "GitLab DevOps platform integration: manage repositories, merge requests, CI/CD pipelines, issues, and wikis for self-hosted and cloud GitLab.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["gitlab", "devops", "ci-cd", "merge-request", "git"],
+      "author": {
+        "name": "GitLab"
+      },
+      "source": "./plugins/gitlab",
+      "homepage": "https://gitlab.com"
+    },
+    {
+      "name": "linear",
+      "displayName": "Linear",
+      "description": "Linear project management integration: create issues, track sprint cycles, update project statuses, and search team workspaces.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["linear", "issue-tracker", "project-management", "agile"],
+      "author": {
+        "name": "Linear"
+      },
+      "source": "./plugins/linear",
+      "homepage": "https://linear.app"
+    },
+    {
+      "name": "figma",
+      "displayName": "Figma",
+      "description": "Figma design system integration: inspect design files, extract component trees, read design tokens, and convert designs into clean UI code.",
+      "version": "1.0.0",
+      "category": "design",
+      "tags": ["figma", "design", "ui-ux", "tokens", "css"],
+      "author": {
+        "name": "Figma"
+      },
+      "source": "./plugins/figma",
+      "homepage": "https://figma.com"
+    },
+    {
+      "name": "postgres",
+      "displayName": "PostgreSQL",
+      "description": "PostgreSQL database management: inspect schemas, execute safe analytical queries, analyze table indices, and generate migrations.",
+      "version": "1.0.0",
+      "category": "database",
+      "tags": ["postgres", "postgresql", "sql", "database", "rdbms"],
+      "author": {
+        "name": "PostgreSQL Community"
+      },
+      "source": "./plugins/postgres",
+      "homepage": "https://www.postgresql.org"
+    },
+    {
+      "name": "redis",
+      "displayName": "Redis",
+      "description": "Redis memory store integration: inspect cache keys, monitor memory usage, debug pub/sub channels, and inspect TTL / data structures.",
+      "version": "1.0.0",
+      "category": "database",
+      "tags": ["redis", "cache", "key-value", "in-memory", "nosql"],
+      "author": {
+        "name": "Redis Labs"
+      },
+      "source": "./plugins/redis",
+      "homepage": "https://redis.io"
+    },
+    {
+      "name": "docker",
+      "displayName": "Docker",
+      "description": "Docker container & compose management: inspect running containers, view logs, manage images, and generate Dockerfiles / Compose configurations.",
+      "version": "1.0.0",
+      "category": "deployment",
+      "tags": ["docker", "containers", "compose", "devops", "deployment"],
+      "author": {
+        "name": "Docker"
+      },
+      "source": "./plugins/docker",
+      "homepage": "https://www.docker.com"
+    },
+    {
+      "name": "playwright",
+      "displayName": "Playwright",
+      "description": "End-to-end browser automation & testing: interact with live web apps, take screenshots, assert DOM elements, and simulate user workflows.",
+      "version": "1.0.0",
+      "category": "testing",
+      "tags": ["playwright", "testing", "browser", "automation", "e2e"],
+      "author": {
+        "name": "Microsoft"
+      },
+      "source": "./plugins/playwright",
+      "homepage": "https://playwright.dev"
+    },
+    {
+      "name": "context7",
+      "displayName": "Context7 Documentation",
+      "description": "Up-to-date documentation search for hundreds of frameworks and libraries (React, Vue, Tailwind, Next.js, Rust, Python, Go, etc.).",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": ["docs", "documentation", "context7", "frameworks", "api"],
+      "author": {
+        "name": "Context7"
+      },
+      "source": "./plugins/context7",
+      "homepage": "https://context7.com"
+    },
+    {
+      "name": "code-review",
+      "displayName": "Code Review Toolkit",
+      "description": "Comprehensive multi-perspective code reviewer: reviews git diffs for correctness, security, architectural consistency, and test coverage.",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": ["code-review", "git", "quality", "security", "best-practices"],
+      "author": {
+        "name": "FtAi Team"
+      },
+      "source": "./plugins/code-review",
+      "homepage": "https://github.com/ftai"
+    },
+    {
+      "name": "frontend-design",
+      "displayName": "Frontend Design Pro",
+      "description": "Craft distinctive, production-ready frontend interfaces with top-tier typography, cohesive color token systems, and accessible components.",
+      "version": "1.0.0",
+      "category": "design",
+      "tags": ["frontend", "ui", "tailwind", "design-system", "vue", "react"],
+      "author": {
+        "name": "FtAi Team"
+      },
+      "source": "./plugins/frontend-design",
+      "homepage": "https://github.com/ftai"
+    },
+    {
+      "name": "tavily",
+      "displayName": "Tavily AI Search",
+      "description": "AI-native real-time web search and content extraction engine optimized for LLMs and multi-step research tasks.",
+      "version": "1.0.0",
+      "category": "ai-search",
+      "tags": ["search", "web-search", "tavily", "crawler", "research"],
+      "author": {
+        "name": "Tavily"
+      },
+      "source": "./plugins/tavily",
+      "homepage": "https://tavily.com"
+    },
+    {
+      "name": "exa",
+      "displayName": "Exa Neural Search",
+      "description": "Neural web search, deep academic and technical research, company profiles, and content extraction via Exa AI API.",
+      "version": "1.0.0",
+      "category": "ai-search",
+      "tags": ["exa", "neural-search", "embeddings", "research"],
+      "author": {
+        "name": "Exa"
+      },
+      "source": "./plugins/exa",
+      "homepage": "https://exa.ai"
+    },
+    {
+      "name": "supabase",
+      "displayName": "Supabase",
+      "description": "Supabase BaaS integration: query PostgreSQL, manage database schema, view storage buckets, and test Edge Functions.",
+      "version": "1.0.0",
+      "category": "database",
+      "tags": ["supabase", "postgres", "auth", "storage", "backend"],
+      "author": {
+        "name": "Supabase Community"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/supabase-community/supabase-plugin.git"
+      },
+      "homepage": "https://supabase.com"
+    },
+    {
+      "name": "slack",
+      "displayName": "Slack",
+      "description": "Slack workspace communication: search message threads, retrieve channel history, and post notifications from dev workflows.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["slack", "chat", "notifications", "collaboration"],
+      "author": {
+        "name": "Slack"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/slackapi/slack-mcp-plugin.git"
+      },
+      "homepage": "https://slack.com"
+    },
+    {
+      "name": "vercel",
+      "displayName": "Vercel",
+      "description": "Vercel frontend cloud integration: inspect deployments, review build logs, manage domain routes, and monitor serverless functions.",
+      "version": "1.0.0",
+      "category": "deployment",
+      "tags": ["vercel", "nextjs", "serverless", "deployment", "hosting"],
+      "author": {
+        "name": "Vercel"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vercel/vercel-plugin.git"
+      },
+      "homepage": "https://vercel.com"
+    },
+    {
+      "name": "sentry",
+      "displayName": "Sentry",
+      "description": "Sentry error & performance monitoring: query crash reports, analyze stack traces, and correlate production exceptions with source code.",
+      "version": "1.0.0",
+      "category": "monitoring",
+      "tags": ["sentry", "errors", "stacktrace", "apm", "monitoring"],
+      "author": {
+        "name": "Sentry"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getsentry/plugin-claude.git"
+      },
+      "homepage": "https://sentry.io"
+    },
+    {
+      "name": "superpowers",
+      "displayName": "Superpowers Dev Suite",
+      "description": "Advanced software engineering methodology toolkit: Systematic Debugging, Red-Green TDD, Brainstorming, and Subagent Delegation.",
+      "version": "1.0.0",
+      "category": "development",
+      "tags": ["tdd", "debugging", "subagents", "methodology", "architecture"],
+      "author": {
+        "name": "Obra / Community"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git"
+      },
+      "homepage": "https://github.com/obra/superpowers"
+    }
+  ]
+}

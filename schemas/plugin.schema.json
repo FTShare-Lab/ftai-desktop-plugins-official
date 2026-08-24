@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ftai.dev/schemas/plugin.schema.json",
+  "title": "FtAi Plugin Manifest",
+  "type": "object",
+  "required": ["name", "description"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9-_]+$"
+    },
+    "displayName": { "type": "string" },
+    "version": { "type": "string" },
+    "description": { "type": "string" },
+    "author": {
+      "oneOf": [
+        { "type": "string" },
+        {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "email": { "type": "string" },
+            "url": { "type": "string" }
+          },
+          "required": ["name"]
+        }
+      ]
+    },
+    "homepage": { "type": "string" },
+    "repository": { "type": "string" },
+    "license": { "type": "string" },
+    "skills": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "mcpServers": {
+      "type": "object"
+    }
+  }
+}

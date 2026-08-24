@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ftai.dev/schemas/marketplace.schema.json",
+  "title": "FtAi Plugin Marketplace Manifest",
+  "type": "object",
+  "required": ["name", "description", "plugins"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "displayName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "url": { "type": "string" }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "renames": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "description"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z0-9-_]+$"
+          },
+          "displayName": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "productivity",
+              "development",
+              "database",
+              "design",
+              "testing",
+              "monitoring",
+              "security",
+              "ai-search",
+              "deployment"
+            ]
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "author": {
+            "oneOf": [
+              { "type": "string" },
+              {
+                "type": "object",
+                "properties": {
+                  "name": { "type": "string" },
+                  "email": { "type": "string" },
+                  "url": { "type": "string" }
+                },
+                "required": ["name"]
+              }
+            ]
+          },
+          "source": {
+            "oneOf": [
+              { "type": "string" },
+              {
+                "type": "object",
+                "required": ["source"],
+                "properties": {
+                  "source": { "type": "string", "enum": ["url", "git-subdir", "local"] },
+                  "url": { "type": "string" },
+                  "path": { "type": "string" },
+                  "ref": { "type": "string" },
+                  "sha": { "type": "string" }
+                }
+              }
+            ]
+          },
+          "homepage": {
+            "type": "string"
+          },
+          "repository": {
+            "type": "string"
+          },
+          "skills": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "mcpServers": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

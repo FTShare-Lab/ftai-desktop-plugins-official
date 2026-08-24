@@ -1,0 +1,11 @@
+{
+  "name": "postgres",
+  "displayName": "PostgreSQL 数据库",
+  "version": "1.0.0",
+  "description": "PostgreSQL 数据库管理：查看表结构与索引、执行分析型查询、诊断慢查询与辅助编写迁移脚本。",
+  "author": {
+    "name": "FtAi Team / PostgreSQL Community"
+  },
+  "homepage": "https://www.postgresql.org",
+  "skills": ["skills/postgres-db"]
+}

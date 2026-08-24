@@ -1,0 +1,11 @@
+{
+  "name": "google-drive",
+  "displayName": "Google Drive 云端网盘",
+  "version": "1.0.0",
+  "description": "Google Drive 云盘与在线文档集成：搜索云端文件、提取 Google Docs / Sheets / Slides 内容、管理文件目录。",
+  "author": {
+    "name": "FtAi Team / Google"
+  },
+  "homepage": "https://developers.google.com/drive",
+  "skills": ["skills/google-drive-sync"]
+}

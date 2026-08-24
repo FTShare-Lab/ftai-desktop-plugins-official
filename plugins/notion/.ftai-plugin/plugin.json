@@ -1,0 +1,11 @@
+{
+  "name": "notion",
+  "displayName": "Notion 知识库协同",
+  "version": "1.0.0",
+  "description": "Notion 知识库与文档集成：搜索文档页面、创建与编辑笔记、查询与更新数据库结构化记录。",
+  "author": {
+    "name": "FtAi Team / Notion"
+  },
+  "homepage": "https://developers.notion.com",
+  "skills": ["skills/notion-workspace"]
+}
