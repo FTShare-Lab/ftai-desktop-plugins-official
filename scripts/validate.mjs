@@ -58,6 +58,16 @@ if (!fs.existsSync(marketplacePath)) {
           }
         }
 
+        // 验证 icon
+        if (plugin.icon) {
+          if (plugin.icon.startsWith("assets/") || plugin.icon.startsWith("./assets/")) {
+            const iconPath = path.join(rootDir, plugin.icon.replace(/^\.\//, ""));
+            if (!fs.existsSync(iconPath)) {
+              reportError(`Plugin ${plugin.name} referenced icon does not exist: ${plugin.icon}`);
+            }
+          }
+        }
+
         // 如果是本地路径插件，校验本地目录
         if (typeof plugin.source === "string" && plugin.source.startsWith("./")) {
           const pluginDir = path.join(rootDir, plugin.source);

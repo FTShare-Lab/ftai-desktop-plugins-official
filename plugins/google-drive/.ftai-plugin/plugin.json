@@ -34,5 +34,6 @@
         "cloud-storage"
       ]
     }
-  }
+  },
+  "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/google-drive.svg"
 }

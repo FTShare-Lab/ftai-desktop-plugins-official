@@ -34,5 +34,6 @@
         "git"
       ]
     }
-  }
+  },
+  "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/gitlab.svg"
 }

@@ -58,6 +58,16 @@ for (const plugin of data.plugins ?? []) {
   if (!pluginDir) continue;
 
   const fields = {};
+  if (plugin.icon === undefined) {
+    const manifestPath = path.join(pluginDir, ".ftai-plugin/plugin.json");
+    if (fs.existsSync(manifestPath)) {
+      const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
+      if (typeof manifest.icon === "string") {
+        fields.icon = manifest.icon;
+      }
+    }
+  }
+
   if (plugin.skills === undefined) {
     const manifestPath = path.join(pluginDir, ".ftai-plugin/plugin.json");
     if (fs.existsSync(manifestPath)) {

@@ -37,17 +37,35 @@
       "description": "Notion workspace integration: search pages, create and update documents, manage databases, and access your team knowledge base.",
       "version": "1.0.0",
       "category": "productivity",
-      "tags": ["notion", "workspace", "knowledge-base", "docs", "notes"],
+      "tags": [
+        "notion",
+        "workspace",
+        "knowledge-base",
+        "docs",
+        "notes"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Notion",
           "description": "Notion 知识库与文档集成：搜索文档页面、创建与编辑笔记、查询与更新数据库结构化记录。",
-          "tags": ["notion", "知识库", "笔记", "数据库", "协同"]
+          "tags": [
+            "notion",
+            "知识库",
+            "笔记",
+            "数据库",
+            "协同"
+          ]
         },
         "en-US": {
           "displayName": "Notion",
           "description": "Notion workspace integration: search pages, create and update documents, manage databases, and access your team knowledge base.",
-          "tags": ["notion", "workspace", "knowledge-base", "docs", "notes"]
+          "tags": [
+            "notion",
+            "workspace",
+            "knowledge-base",
+            "docs",
+            "notes"
+          ]
         }
       },
       "author": {
@@ -55,16 +73,22 @@
       },
       "source": "./plugins/notion",
       "homepage": "https://www.notion.so",
-      "skills": ["skills/notion-workspace"],
+      "skills": [
+        "skills/notion-workspace"
+      ],
       "mcpServers": {
         "notion": {
           "command": "npx",
-          "args": ["-y", "@modelcontextprotocol/server-notion"],
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-notion"
+          ],
           "env": {
             "NOTION_API_KEY": "${NOTION_API_KEY}"
           }
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/notion.svg"
     },
     {
       "name": "github",
@@ -72,17 +96,36 @@
       "description": "Official GitHub integration for repository management: create issues, manage PRs, review code, search repositories and commits.",
       "version": "1.0.0",
       "category": "productivity",
-      "tags": ["github", "git", "pull-request", "issue", "devops"],
+      "tags": [
+        "github",
+        "git",
+        "pull-request",
+        "issue",
+        "devops"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "GitHub",
           "description": "GitHub 仓库与协作管理：查看 Issue、提交 Pull Request、分析代码提交历史、管理 Release 等。",
-          "tags": ["github", "git", "代码仓库", "pr", "issue", "协作"]
+          "tags": [
+            "github",
+            "git",
+            "代码仓库",
+            "pr",
+            "issue",
+            "协作"
+          ]
         },
         "en-US": {
           "displayName": "GitHub",
           "description": "Official GitHub integration for repository management: create issues, manage PRs, review code, search repositories and commits.",
-          "tags": ["github", "git", "pull-request", "issue", "devops"]
+          "tags": [
+            "github",
+            "git",
+            "pull-request",
+            "issue",
+            "devops"
+          ]
         }
       },
       "author": {
@@ -90,16 +133,22 @@
       },
       "source": "./plugins/github",
       "homepage": "https://github.com",
-      "skills": ["skills/github-workflows"],
+      "skills": [
+        "skills/github-workflows"
+      ],
       "mcpServers": {
         "github": {
           "command": "npx",
-          "args": ["-y", "@modelcontextprotocol/server-github"],
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-github"
+          ],
           "env": {
             "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
           }
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/github.svg"
     },
     {
       "name": "google-drive",
@@ -107,17 +156,36 @@
       "description": "Google Drive integration: search cloud files, read Google Docs/Sheets, list directories, and manage drive assets directly from AI.",
       "version": "1.0.0",
       "category": "productivity",
-      "tags": ["google", "gdrive", "docs", "sheets", "cloud-storage"],
+      "tags": [
+        "google",
+        "gdrive",
+        "docs",
+        "sheets",
+        "cloud-storage"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Google Drive",
           "description": "Google Drive 云盘与在线文档集成：搜索云端文件、提取 Google Docs / Sheets / Slides 内容、管理文件目录。",
-          "tags": ["google", "网盘", "云盘", "文档", "表格", "云存储"]
+          "tags": [
+            "google",
+            "网盘",
+            "云盘",
+            "文档",
+            "表格",
+            "云存储"
+          ]
         },
         "en-US": {
           "displayName": "Google Drive",
           "description": "Google Drive integration: search cloud files, read Google Docs/Sheets, list directories, and manage drive assets directly from AI.",
-          "tags": ["google", "gdrive", "docs", "sheets", "cloud-storage"]
+          "tags": [
+            "google",
+            "gdrive",
+            "docs",
+            "sheets",
+            "cloud-storage"
+          ]
         }
       },
       "author": {
@@ -125,17 +193,23 @@
       },
       "source": "./plugins/google-drive",
       "homepage": "https://drive.google.com",
-      "skills": ["skills/google-drive-sync"],
+      "skills": [
+        "skills/google-drive-sync"
+      ],
       "mcpServers": {
         "google-drive": {
           "command": "npx",
-          "args": ["-y", "@modelcontextprotocol/server-gdrive"],
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-gdrive"
+          ],
           "env": {
             "GDRIVE_CLIENT_ID": "${GDRIVE_CLIENT_ID}",
             "GDRIVE_CLIENT_SECRET": "${GDRIVE_CLIENT_SECRET}"
           }
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/google-drive.svg"
     },
     {
       "name": "gitlab",
@@ -143,17 +217,36 @@
       "description": "GitLab DevOps platform integration: manage repositories, merge requests, CI/CD pipelines, issues, and wikis for self-hosted and cloud GitLab.",
       "version": "1.0.0",
       "category": "productivity",
-      "tags": ["gitlab", "devops", "ci-cd", "merge-request", "git"],
+      "tags": [
+        "gitlab",
+        "devops",
+        "ci-cd",
+        "merge-request",
+        "git"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "GitLab",
           "description": "GitLab DevOps 集成：支持自建/官方 GitLab 仓库代码检索、Merge Request 协作与 CI/CD 流水线管理。",
-          "tags": ["gitlab", "流水线", "ci-cd", "mr", "代码仓库", "自建git"]
+          "tags": [
+            "gitlab",
+            "流水线",
+            "ci-cd",
+            "mr",
+            "代码仓库",
+            "自建git"
+          ]
         },
         "en-US": {
           "displayName": "GitLab",
           "description": "GitLab DevOps platform integration: manage repositories, merge requests, CI/CD pipelines, issues, and wikis for self-hosted and cloud GitLab.",
-          "tags": ["gitlab", "devops", "ci-cd", "merge-request", "git"]
+          "tags": [
+            "gitlab",
+            "devops",
+            "ci-cd",
+            "merge-request",
+            "git"
+          ]
         }
       },
       "author": {
@@ -161,17 +254,23 @@
       },
       "source": "./plugins/gitlab",
       "homepage": "https://gitlab.com",
-      "skills": ["skills/gitlab-ci"],
+      "skills": [
+        "skills/gitlab-ci"
+      ],
       "mcpServers": {
         "gitlab": {
           "command": "npx",
-          "args": ["-y", "@modelcontextprotocol/server-gitlab"],
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-gitlab"
+          ],
           "env": {
             "GITLAB_PERSONAL_ACCESS_TOKEN": "${GITLAB_PERSONAL_ACCESS_TOKEN}",
             "GITLAB_API_URL": "${GITLAB_API_URL:-https://gitlab.com/api/v4}"
           }
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/gitlab.svg"
     },
     {
       "name": "linear",
@@ -179,17 +278,33 @@
       "description": "Linear project management integration: create issues, track sprint cycles, update project statuses, and search team workspaces.",
       "version": "1.0.0",
       "category": "productivity",
-      "tags": ["linear", "issue-tracker", "project-management", "agile"],
+      "tags": [
+        "linear",
+        "issue-tracker",
+        "project-management",
+        "agile"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Linear",
           "description": "Linear 敏捷项目与任务管理集成：创建任务、追踪 Sprint 迭代、更新状态与关联 Git 分支。",
-          "tags": ["linear", "敏捷开发", "项目管理", "任务看板", "issue"]
+          "tags": [
+            "linear",
+            "敏捷开发",
+            "项目管理",
+            "任务看板",
+            "issue"
+          ]
         },
         "en-US": {
           "displayName": "Linear",
           "description": "Linear project management integration: create issues, track sprint cycles, update project statuses, and search team workspaces.",
-          "tags": ["linear", "issue-tracker", "project-management", "agile"]
+          "tags": [
+            "linear",
+            "issue-tracker",
+            "project-management",
+            "agile"
+          ]
         }
       },
       "author": {
@@ -197,7 +312,9 @@
       },
       "source": "./plugins/linear",
       "homepage": "https://linear.app",
-      "skills": ["skills/linear-tracker"],
+      "skills": [
+        "skills/linear-tracker"
+      ],
       "mcpServers": {
         "linear": {
           "type": "http",
@@ -206,7 +323,8 @@
             "Authorization": "Bearer ${LINEAR_API_KEY}"
           }
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/linear.svg"
     },
     {
       "name": "figma",
@@ -214,17 +332,36 @@
       "description": "Figma design system integration: inspect design files, extract component trees, read design tokens, and convert designs into clean UI code.",
       "version": "1.0.0",
       "category": "design",
-      "tags": ["figma", "design", "ui-ux", "tokens", "css"],
+      "tags": [
+        "figma",
+        "design",
+        "ui-ux",
+        "tokens",
+        "css"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Figma",
           "description": "Figma 设计稿解析与代码还原：提取设计 Token、组件树、布局约束并转换为 Tailwind CSS / Vue / React 代码。",
-          "tags": ["figma", "设计稿", "ui设计", "设计规范", "tokens", "前端还原"]
+          "tags": [
+            "figma",
+            "设计稿",
+            "ui设计",
+            "设计规范",
+            "tokens",
+            "前端还原"
+          ]
         },
         "en-US": {
           "displayName": "Figma",
           "description": "Figma design system integration: inspect design files, extract component trees, read design tokens, and convert designs into clean UI code.",
-          "tags": ["figma", "design", "ui-ux", "tokens", "css"]
+          "tags": [
+            "figma",
+            "design",
+            "ui-ux",
+            "tokens",
+            "css"
+          ]
         }
       },
       "author": {
@@ -232,16 +369,22 @@
       },
       "source": "./plugins/figma",
       "homepage": "https://figma.com",
-      "skills": ["skills/figma-tokens"],
+      "skills": [
+        "skills/figma-tokens"
+      ],
       "mcpServers": {
         "figma": {
           "command": "npx",
-          "args": ["-y", "figma-mcp-server"],
+          "args": [
+            "-y",
+            "figma-mcp-server"
+          ],
           "env": {
             "FIGMA_ACCESS_TOKEN": "${FIGMA_ACCESS_TOKEN}"
           }
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/figma.svg"
     },
     {
       "name": "postgres",
@@ -249,17 +392,36 @@
       "description": "PostgreSQL database management: inspect schemas, execute safe analytical queries, analyze table indices, and generate migrations.",
       "version": "1.0.0",
       "category": "database",
-      "tags": ["postgres", "postgresql", "sql", "database", "rdbms"],
+      "tags": [
+        "postgres",
+        "postgresql",
+        "sql",
+        "database",
+        "rdbms"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "PostgreSQL",
           "description": "PostgreSQL 数据库管理：查看表结构与索引、执行分析型查询、诊断慢查询与辅助编写迁移脚本。",
-          "tags": ["postgres", "postgresql", "数据库", "sql", "表结构", "索引"]
+          "tags": [
+            "postgres",
+            "postgresql",
+            "数据库",
+            "sql",
+            "表结构",
+            "索引"
+          ]
         },
         "en-US": {
           "displayName": "PostgreSQL",
           "description": "PostgreSQL database management: inspect schemas, execute safe analytical queries, analyze table indices, and generate migrations.",
-          "tags": ["postgres", "postgresql", "sql", "database", "rdbms"]
+          "tags": [
+            "postgres",
+            "postgresql",
+            "sql",
+            "database",
+            "rdbms"
+          ]
         }
       },
       "author": {
@@ -267,13 +429,20 @@
       },
       "source": "./plugins/postgres",
       "homepage": "https://www.postgresql.org",
-      "skills": ["skills/postgres-db"],
+      "skills": [
+        "skills/postgres-db"
+      ],
       "mcpServers": {
         "postgres": {
           "command": "npx",
-          "args": ["-y", "@modelcontextprotocol/server-postgres", "${DATABASE_URL}"]
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-postgres",
+            "${DATABASE_URL}"
+          ]
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/postgres.svg"
     },
     {
       "name": "redis",
@@ -281,17 +450,36 @@
       "description": "Redis memory store integration: inspect cache keys, monitor memory usage, debug pub/sub channels, and inspect TTL / data structures.",
       "version": "1.0.0",
       "category": "database",
-      "tags": ["redis", "cache", "key-value", "in-memory", "nosql"],
+      "tags": [
+        "redis",
+        "cache",
+        "key-value",
+        "in-memory",
+        "nosql"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Redis",
           "description": "Redis 内存存储与缓存调试：查看键空间分布、读取键值与 TTL、监控内存使用与排查缓存穿透问题。",
-          "tags": ["redis", "缓存", "内存数据库", "key-value", "nosql", "ttl"]
+          "tags": [
+            "redis",
+            "缓存",
+            "内存数据库",
+            "key-value",
+            "nosql",
+            "ttl"
+          ]
         },
         "en-US": {
           "displayName": "Redis",
           "description": "Redis memory store integration: inspect cache keys, monitor memory usage, debug pub/sub channels, and inspect TTL / data structures.",
-          "tags": ["redis", "cache", "key-value", "in-memory", "nosql"]
+          "tags": [
+            "redis",
+            "cache",
+            "key-value",
+            "in-memory",
+            "nosql"
+          ]
         }
       },
       "author": {
@@ -299,13 +487,20 @@
       },
       "source": "./plugins/redis",
       "homepage": "https://redis.io",
-      "skills": ["skills/redis-cache"],
+      "skills": [
+        "skills/redis-cache"
+      ],
       "mcpServers": {
         "redis": {
           "command": "npx",
-          "args": ["-y", "@modelcontextprotocol/server-redis", "${REDIS_URL:-redis://localhost:6379}"]
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-redis",
+            "${REDIS_URL:-redis://localhost:6379}"
+          ]
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/redis.svg"
     },
     {
       "name": "docker",
@@ -313,17 +508,36 @@
       "description": "Docker container & compose management: inspect running containers, view logs, manage images, and generate Dockerfiles / Compose configurations.",
       "version": "1.0.0",
       "category": "deployment",
-      "tags": ["docker", "containers", "compose", "devops", "deployment"],
+      "tags": [
+        "docker",
+        "containers",
+        "compose",
+        "devops",
+        "deployment"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Docker",
           "description": "Docker 容器与镜像管理：查看运行中容器状态、拉取日志、检查网络与卷、辅助编写 Dockerfile 及 Compose 配置。",
-          "tags": ["docker", "容器", "镜像", "compose", "运维", "部署"]
+          "tags": [
+            "docker",
+            "容器",
+            "镜像",
+            "compose",
+            "运维",
+            "部署"
+          ]
         },
         "en-US": {
           "displayName": "Docker",
           "description": "Docker container & compose management: inspect running containers, view logs, manage images, and generate Dockerfiles / Compose configurations.",
-          "tags": ["docker", "containers", "compose", "devops", "deployment"]
+          "tags": [
+            "docker",
+            "containers",
+            "compose",
+            "devops",
+            "deployment"
+          ]
         }
       },
       "author": {
@@ -331,13 +545,19 @@
       },
       "source": "./plugins/docker",
       "homepage": "https://www.docker.com",
-      "skills": ["skills/docker-ops"],
+      "skills": [
+        "skills/docker-ops"
+      ],
       "mcpServers": {
         "docker": {
           "command": "npx",
-          "args": ["-y", "@modelcontextprotocol/server-docker"]
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-docker"
+          ]
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/docker.svg"
     },
     {
       "name": "playwright",
@@ -345,17 +565,35 @@
       "description": "End-to-end browser automation & testing: interact with live web apps, take screenshots, assert DOM elements, and simulate user workflows.",
       "version": "1.0.0",
       "category": "testing",
-      "tags": ["playwright", "testing", "browser", "automation", "e2e"],
+      "tags": [
+        "playwright",
+        "testing",
+        "browser",
+        "automation",
+        "e2e"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Playwright",
           "description": "Playwright 端到端测试与浏览器交互：加载网页、模拟用户点击与表单输入、捕获屏幕截图与控制台报错。",
-          "tags": ["playwright", "端到端测试", "浏览器自动化", "截图验证", "e2e"]
+          "tags": [
+            "playwright",
+            "端到端测试",
+            "浏览器自动化",
+            "截图验证",
+            "e2e"
+          ]
         },
         "en-US": {
           "displayName": "Playwright",
           "description": "End-to-end browser automation & testing: interact with live web apps, take screenshots, assert DOM elements, and simulate user workflows.",
-          "tags": ["playwright", "testing", "browser", "automation", "e2e"]
+          "tags": [
+            "playwright",
+            "testing",
+            "browser",
+            "automation",
+            "e2e"
+          ]
         }
       },
       "author": {
@@ -363,13 +601,19 @@
       },
       "source": "./plugins/playwright",
       "homepage": "https://playwright.dev",
-      "skills": ["skills/playwright-test"],
+      "skills": [
+        "skills/playwright-test"
+      ],
       "mcpServers": {
         "playwright": {
           "command": "npx",
-          "args": ["-y", "@playwright/mcp@latest"]
+          "args": [
+            "-y",
+            "@playwright/mcp@latest"
+          ]
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/playwright.svg"
     },
     {
       "name": "context7",
@@ -377,17 +621,36 @@
       "description": "Up-to-date documentation search for hundreds of frameworks and libraries (React, Vue, Tailwind, Next.js, Rust, Python, Go, etc.).",
       "version": "1.0.0",
       "category": "development",
-      "tags": ["docs", "documentation", "context7", "frameworks", "api"],
+      "tags": [
+        "docs",
+        "documentation",
+        "context7",
+        "frameworks",
+        "api"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Context7",
           "description": "Context7 技术文档实时查询：获取 React、Vue、Tailwind、Next.js、Prisma、Rust 等数百个前沿技术栈的官方最新文档。",
-          "tags": ["文档", "技术文档", "api参考", "框架", "context7", "语法查询"]
+          "tags": [
+            "文档",
+            "技术文档",
+            "api参考",
+            "框架",
+            "context7",
+            "语法查询"
+          ]
         },
         "en-US": {
           "displayName": "Context7",
           "description": "Up-to-date documentation search for hundreds of frameworks and libraries (React, Vue, Tailwind, Next.js, Rust, Python, Go, etc.).",
-          "tags": ["docs", "documentation", "context7", "frameworks", "api"]
+          "tags": [
+            "docs",
+            "documentation",
+            "context7",
+            "frameworks",
+            "api"
+          ]
         }
       },
       "author": {
@@ -395,7 +658,9 @@
       },
       "source": "./plugins/context7",
       "homepage": "https://context7.com",
-      "skills": ["skills/context7-docs"],
+      "skills": [
+        "skills/context7-docs"
+      ],
       "mcpServers": {
         "context7": {
           "type": "http",
@@ -404,7 +669,8 @@
             "Authorization": "${CONTEXT7_API_KEY:-}"
           }
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/context7.svg"
     },
     {
       "name": "code-review",
@@ -412,17 +678,35 @@
       "description": "Comprehensive multi-perspective code reviewer: reviews git diffs for correctness, security, architectural consistency, and test coverage.",
       "version": "1.0.0",
       "category": "development",
-      "tags": ["code-review", "git", "quality", "security", "best-practices"],
+      "tags": [
+        "code-review",
+        "git",
+        "quality",
+        "security",
+        "best-practices"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "代码审查",
           "description": "自动化高质量代码审查：针对 Git Diff 全面评估代码正确性、并发安全、异常边界、性能瓶颈与架构整洁度。",
-          "tags": ["代码审查", "code-review", "质量保障", "安全审计", "diff审查"]
+          "tags": [
+            "代码审查",
+            "code-review",
+            "质量保障",
+            "安全审计",
+            "diff审查"
+          ]
         },
         "en-US": {
           "displayName": "Code Review",
           "description": "Comprehensive multi-perspective code reviewer: reviews git diffs for correctness, security, architectural consistency, and test coverage.",
-          "tags": ["code-review", "git", "quality", "security", "best-practices"]
+          "tags": [
+            "code-review",
+            "git",
+            "quality",
+            "security",
+            "best-practices"
+          ]
         }
       },
       "author": {
@@ -430,7 +714,10 @@
       },
       "source": "./plugins/code-review",
       "homepage": "https://github.com/ftai",
-      "skills": ["skills/code-review"]
+      "skills": [
+        "skills/code-review"
+      ],
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/code-review.svg"
     },
     {
       "name": "frontend-design",
@@ -438,17 +725,38 @@
       "description": "Craft distinctive, production-ready frontend interfaces with top-tier typography, cohesive color token systems, and accessible components.",
       "version": "1.0.0",
       "category": "design",
-      "tags": ["frontend", "ui", "tailwind", "design-system", "vue", "react"],
+      "tags": [
+        "frontend",
+        "ui",
+        "tailwind",
+        "design-system",
+        "vue",
+        "react"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "前端设计",
           "description": "打造高质感、现代且符合无障碍规范的前端界面：严谨的排版字阶、语义化颜色 Token、细腻动画与响应式布局。",
-          "tags": ["前端设计", "ui", "ux", "tailwind", "组件开发", "设计规范"]
+          "tags": [
+            "前端设计",
+            "ui",
+            "ux",
+            "tailwind",
+            "组件开发",
+            "设计规范"
+          ]
         },
         "en-US": {
           "displayName": "Frontend Design",
           "description": "Craft distinctive, production-ready frontend interfaces with top-tier typography, cohesive color token systems, and accessible components.",
-          "tags": ["frontend", "ui", "tailwind", "design-system", "vue", "react"]
+          "tags": [
+            "frontend",
+            "ui",
+            "tailwind",
+            "design-system",
+            "vue",
+            "react"
+          ]
         }
       },
       "author": {
@@ -456,7 +764,10 @@
       },
       "source": "./plugins/frontend-design",
       "homepage": "https://github.com/ftai",
-      "skills": ["skills/frontend-design"]
+      "skills": [
+        "skills/frontend-design"
+      ],
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/frontend-design.svg"
     },
     {
       "name": "tavily",
@@ -464,17 +775,35 @@
       "description": "AI-native real-time web search and content extraction engine optimized for LLMs and multi-step research tasks.",
       "version": "1.0.0",
       "category": "ai-search",
-      "tags": ["search", "web-search", "tavily", "crawler", "research"],
+      "tags": [
+        "search",
+        "web-search",
+        "tavily",
+        "crawler",
+        "research"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Tavily",
           "description": "专为 AI 设计的高性能实时网络搜索与深度内容爬取引擎，支持上下文精准过滤与多源内容总结。",
-          "tags": ["搜索", "网络搜索", "实时信息", "网页爬取", "tavily"]
+          "tags": [
+            "搜索",
+            "网络搜索",
+            "实时信息",
+            "网页爬取",
+            "tavily"
+          ]
         },
         "en-US": {
           "displayName": "Tavily",
           "description": "AI-native real-time web search and content extraction engine optimized for LLMs and multi-step research tasks.",
-          "tags": ["search", "web-search", "tavily", "crawler", "research"]
+          "tags": [
+            "search",
+            "web-search",
+            "tavily",
+            "crawler",
+            "research"
+          ]
         }
       },
       "author": {
@@ -482,16 +811,22 @@
       },
       "source": "./plugins/tavily",
       "homepage": "https://tavily.com",
-      "skills": ["skills/tavily-search"],
+      "skills": [
+        "skills/tavily-search"
+      ],
       "mcpServers": {
         "tavily": {
           "command": "npx",
-          "args": ["-y", "@tavily/mcp-server"],
+          "args": [
+            "-y",
+            "@tavily/mcp-server"
+          ],
           "env": {
             "TAVILY_API_KEY": "${TAVILY_API_KEY}"
           }
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/tavily.svg"
     },
     {
       "name": "exa",
@@ -499,17 +834,33 @@
       "description": "Neural web search, deep academic and technical research, company profiles, and content extraction via Exa AI API.",
       "version": "1.0.0",
       "category": "ai-search",
-      "tags": ["exa", "neural-search", "embeddings", "research"],
+      "tags": [
+        "exa",
+        "neural-search",
+        "embeddings",
+        "research"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Exa",
           "description": "基于语义嵌入的深度神经网络搜索引擎：深度学术文献检索、公司与竞品调研、技术架构分析与高质量代码查找。",
-          "tags": ["exa", "神经搜索", "语义检索", "学术文献", "技术调研"]
+          "tags": [
+            "exa",
+            "神经搜索",
+            "语义检索",
+            "学术文献",
+            "技术调研"
+          ]
         },
         "en-US": {
           "displayName": "Exa",
           "description": "Neural web search, deep academic and technical research, company profiles, and content extraction via Exa AI API.",
-          "tags": ["exa", "neural-search", "embeddings", "research"]
+          "tags": [
+            "exa",
+            "neural-search",
+            "embeddings",
+            "research"
+          ]
         }
       },
       "author": {
@@ -517,16 +868,22 @@
       },
       "source": "./plugins/exa",
       "homepage": "https://exa.ai",
-      "skills": ["skills/exa-search"],
+      "skills": [
+        "skills/exa-search"
+      ],
       "mcpServers": {
         "exa": {
           "command": "npx",
-          "args": ["-y", "exa-mcp-server"],
+          "args": [
+            "-y",
+            "exa-mcp-server"
+          ],
           "env": {
             "EXA_API_KEY": "${EXA_API_KEY}"
           }
         }
-      }
+      },
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/exa.svg"
     },
     {
       "name": "supabase",
@@ -534,17 +891,36 @@
       "description": "Supabase BaaS integration: query PostgreSQL, manage database schema, view storage buckets, and test Edge Functions.",
       "version": "1.0.0",
       "category": "database",
-      "tags": ["supabase", "postgres", "auth", "storage", "backend"],
+      "tags": [
+        "supabase",
+        "postgres",
+        "auth",
+        "storage",
+        "backend"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Supabase",
           "description": "Supabase BaaS 集成：查询云端 PostgreSQL、管理数据库表模式、管理 Storage 存储桶与调试 Edge Functions。",
-          "tags": ["supabase", "postgres", "后端服务", "数据库", "鉴权", "云存储"]
+          "tags": [
+            "supabase",
+            "postgres",
+            "后端服务",
+            "数据库",
+            "鉴权",
+            "云存储"
+          ]
         },
         "en-US": {
           "displayName": "Supabase",
           "description": "Supabase BaaS integration: query PostgreSQL, manage database schema, view storage buckets, and test Edge Functions.",
-          "tags": ["supabase", "postgres", "auth", "storage", "backend"]
+          "tags": [
+            "supabase",
+            "postgres",
+            "auth",
+            "storage",
+            "backend"
+          ]
         }
       },
       "author": {
@@ -554,7 +930,8 @@
         "source": "git",
         "url": "https://github.com/supabase-community/supabase-plugin.git"
       },
-      "homepage": "https://supabase.com"
+      "homepage": "https://supabase.com",
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/supabase.svg"
     },
     {
       "name": "slack",
@@ -562,17 +939,33 @@
       "description": "Slack workspace communication: search message threads, retrieve channel history, and post notifications from dev workflows.",
       "version": "1.0.0",
       "category": "productivity",
-      "tags": ["slack", "chat", "notifications", "collaboration"],
+      "tags": [
+        "slack",
+        "chat",
+        "notifications",
+        "collaboration"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Slack",
           "description": "Slack 工作区集成：检索频道消息历史、查看讨论 Thread、从研发工作流发送自动化通知。",
-          "tags": ["slack", "团队协作", "消息通知", "群聊", "即时通讯"]
+          "tags": [
+            "slack",
+            "团队协作",
+            "消息通知",
+            "群聊",
+            "即时通讯"
+          ]
         },
         "en-US": {
           "displayName": "Slack",
           "description": "Slack workspace communication: search message threads, retrieve channel history, and post notifications from dev workflows.",
-          "tags": ["slack", "chat", "notifications", "collaboration"]
+          "tags": [
+            "slack",
+            "chat",
+            "notifications",
+            "collaboration"
+          ]
         }
       },
       "author": {
@@ -582,7 +975,8 @@
         "source": "git",
         "url": "https://github.com/slackapi/slack-mcp-plugin.git"
       },
-      "homepage": "https://slack.com"
+      "homepage": "https://slack.com",
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/slack.svg"
     },
     {
       "name": "vercel",
@@ -590,17 +984,35 @@
       "description": "Vercel frontend cloud integration: inspect deployments, review build logs, manage domain routes, and monitor serverless functions.",
       "version": "1.0.0",
       "category": "deployment",
-      "tags": ["vercel", "nextjs", "serverless", "deployment", "hosting"],
+      "tags": [
+        "vercel",
+        "nextjs",
+        "serverless",
+        "deployment",
+        "hosting"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Vercel",
           "description": "Vercel 前端云集成：查看项目部署状态、拉取构建日志、配置域名路由与监控 Serverless 函数指标。",
-          "tags": ["vercel", "前端部署", "nextjs", "serverless", "域名路由"]
+          "tags": [
+            "vercel",
+            "前端部署",
+            "nextjs",
+            "serverless",
+            "域名路由"
+          ]
         },
         "en-US": {
           "displayName": "Vercel",
           "description": "Vercel frontend cloud integration: inspect deployments, review build logs, manage domain routes, and monitor serverless functions.",
-          "tags": ["vercel", "nextjs", "serverless", "deployment", "hosting"]
+          "tags": [
+            "vercel",
+            "nextjs",
+            "serverless",
+            "deployment",
+            "hosting"
+          ]
         }
       },
       "author": {
@@ -610,7 +1022,8 @@
         "source": "git",
         "url": "https://github.com/vercel/vercel-plugin.git"
       },
-      "homepage": "https://vercel.com"
+      "homepage": "https://vercel.com",
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/vercel.svg"
     },
     {
       "name": "sentry",
@@ -618,17 +1031,35 @@
       "description": "Sentry error & performance monitoring: query crash reports, analyze stack traces, and correlate production exceptions with source code.",
       "version": "1.0.0",
       "category": "monitoring",
-      "tags": ["sentry", "errors", "stacktrace", "apm", "monitoring"],
+      "tags": [
+        "sentry",
+        "errors",
+        "stacktrace",
+        "apm",
+        "monitoring"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Sentry",
           "description": "Sentry 错误与性能监控：检索线上 Crash 报告、分析调用堆栈、将生产异常精确定位到源代码行。",
-          "tags": ["sentry", "异常监控", "堆栈排查", "崩溃日志", "性能诊断"]
+          "tags": [
+            "sentry",
+            "异常监控",
+            "堆栈排查",
+            "崩溃日志",
+            "性能诊断"
+          ]
         },
         "en-US": {
           "displayName": "Sentry",
           "description": "Sentry error & performance monitoring: query crash reports, analyze stack traces, and correlate production exceptions with source code.",
-          "tags": ["sentry", "errors", "stacktrace", "apm", "monitoring"]
+          "tags": [
+            "sentry",
+            "errors",
+            "stacktrace",
+            "apm",
+            "monitoring"
+          ]
         }
       },
       "author": {
@@ -638,7 +1069,8 @@
         "source": "git",
         "url": "https://github.com/getsentry/plugin-claude.git"
       },
-      "homepage": "https://sentry.io"
+      "homepage": "https://sentry.io",
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/sentry.svg"
     },
     {
       "name": "superpowers",
@@ -646,17 +1078,35 @@
       "description": "Advanced software engineering methodology toolkit: Systematic Debugging, Red-Green TDD, Brainstorming, and Subagent Delegation.",
       "version": "1.0.0",
       "category": "development",
-      "tags": ["tdd", "debugging", "subagents", "methodology", "architecture"],
+      "tags": [
+        "tdd",
+        "debugging",
+        "subagents",
+        "methodology",
+        "architecture"
+      ],
       "locales": {
         "zh-CN": {
           "displayName": "Superpowers",
           "description": "高级软件工程开发方法论套件：系统化排错、红绿测试驱动开发 (TDD)、头脑风暴与子代理委派协作体系。",
-          "tags": ["tdd", "测试驱动开发", "系统化排错", "头脑风暴", "工程方法论"]
+          "tags": [
+            "tdd",
+            "测试驱动开发",
+            "系统化排错",
+            "头脑风暴",
+            "工程方法论"
+          ]
         },
         "en-US": {
           "displayName": "Superpowers",
           "description": "Advanced software engineering methodology toolkit: Systematic Debugging, Red-Green TDD, Brainstorming, and Subagent Delegation.",
-          "tags": ["tdd", "debugging", "subagents", "methodology", "architecture"]
+          "tags": [
+            "tdd",
+            "debugging",
+            "subagents",
+            "methodology",
+            "architecture"
+          ]
         }
       },
       "author": {
@@ -666,7 +1116,8 @@
         "source": "git",
         "url": "https://github.com/obra/superpowers.git"
       },
-      "homepage": "https://github.com/obra/superpowers"
+      "homepage": "https://github.com/obra/superpowers",
+      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/superpowers.svg"
     }
   ]
 }

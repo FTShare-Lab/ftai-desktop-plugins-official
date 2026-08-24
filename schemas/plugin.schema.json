@@ -46,6 +46,7 @@
     "homepage": { "type": "string" },
     "repository": { "type": "string" },
     "license": { "type": "string" },
+    "icon": { "type": "string" },
     "skills": {
       "type": "array",
       "items": { "type": "string" }

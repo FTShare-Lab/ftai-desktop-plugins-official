@@ -33,5 +33,6 @@
         "best-practices"
       ]
     }
-  }
+  },
+  "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/code-review.svg"
 }

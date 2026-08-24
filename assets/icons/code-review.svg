@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="cr-bg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#059669"/>
+      <stop offset="1" stop-color="#0D9488"/>
+    </linearGradient>
+    <linearGradient id="cr-glass" x1="16" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#cr-bg)"/>
+  <rect x="2" y="2" width="124" height="124" rx="26" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2"/>
+  <path d="M40 44L26 64L40 84" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M88 44L102 64L88 84" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="62" r="18" fill="url(#cr-glass)" stroke="#ffffff" stroke-width="6"/>
+  <path d="M77 75L90 88" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M57 62L62 67L72 56" stroke="#34D399" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

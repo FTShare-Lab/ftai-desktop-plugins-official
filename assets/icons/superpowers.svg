@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="sp-bg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="sp-bolt" x1="40" y1="20" x2="88" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FACC15"/>
+      <stop offset="1" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#sp-bg)"/>
+  <rect x="2" y="2" width="124" height="124" rx="26" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2"/>
+  <path d="M72 20L36 68H64L56 108L92 60H64L72 20Z" fill="url(#sp-bolt)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="34" cy="36" r="4" fill="#ffffff" fill-opacity="0.9"/>
+  <circle cx="96" cy="38" r="5" fill="#ffffff" fill-opacity="0.9"/>
+  <circle cx="94" cy="92" r="3.5" fill="#ffffff" fill-opacity="0.9"/>
+</svg>

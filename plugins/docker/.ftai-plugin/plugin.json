@@ -34,5 +34,6 @@
         "deployment"
       ]
     }
-  }
+  },
+  "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/docker.svg"
 }

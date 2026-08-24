@@ -34,5 +34,6 @@
         "rdbms"
       ]
     }
-  }
+  },
+  "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/postgres.svg"
 }

@@ -33,5 +33,6 @@
         "e2e"
       ]
     }
-  }
+  },
+  "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/playwright.svg"
 }

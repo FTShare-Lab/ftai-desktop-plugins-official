@@ -35,5 +35,6 @@
         "react"
       ]
     }
-  }
+  },
+  "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/frontend-design.svg"
 }
