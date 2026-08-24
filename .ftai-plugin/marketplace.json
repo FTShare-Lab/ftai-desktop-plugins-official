@@ -4,6 +4,11 @@
   "displayName": "FtAi Official Plugin Marketplace",
   "description": "Curated directory of high-quality plugins, MCP servers, and Skills for FtAi Desktop and Claude Code developers.",
   "version": "1.0.0",
+  "repository": "https://github.com/FTShare-Lab/ftai-desktop-plugins-official.git",
+  "owner": {
+    "name": "FtAi Team",
+    "url": "https://github.com/FTShare-Lab/ftai-desktop-plugins-official.git"
+  },
   "locales": {
     "zh-CN": {
       "displayName": "FtAi 官方插件市场",
@@ -13,10 +18,6 @@
       "displayName": "FtAi Official Plugin Marketplace",
       "description": "Curated directory of high-quality plugins, MCP servers, and Skills for FtAi Desktop and Claude Code developers."
     }
-  },
-  "owner": {
-    "name": "FtAi Team",
-    "url": "https://github.com/ftai"
   },
   "categories": [
     "productivity",
@@ -53,8 +54,7 @@
         "name": "Notion / Community"
       },
       "source": "./plugins/notion",
-      "homepage": "https://www.notion.so",
-      "repository": "https://github.com/makenotion/claude-code-notion-plugin"
+      "homepage": "https://www.notion.so"
     },
     {
       "name": "github",
@@ -79,8 +79,7 @@
         "name": "GitHub / Anthropic"
       },
       "source": "./plugins/github",
-      "homepage": "https://github.com",
-      "repository": "https://github.com/github/copilot-cli"
+      "homepage": "https://github.com"
     },
     {
       "name": "google-drive",
@@ -105,8 +104,7 @@
         "name": "Google / Model Context Protocol"
       },
       "source": "./plugins/google-drive",
-      "homepage": "https://drive.google.com",
-      "repository": "https://github.com/modelcontextprotocol/servers"
+      "homepage": "https://drive.google.com"
     },
     {
       "name": "gitlab",
@@ -431,7 +429,7 @@
         "name": "Supabase Community"
       },
       "source": {
-        "source": "url",
+        "source": "git",
         "url": "https://github.com/supabase-community/supabase-plugin.git"
       },
       "homepage": "https://supabase.com"
@@ -459,7 +457,7 @@
         "name": "Slack"
       },
       "source": {
-        "source": "url",
+        "source": "git",
         "url": "https://github.com/slackapi/slack-mcp-plugin.git"
       },
       "homepage": "https://slack.com"
@@ -487,7 +485,7 @@
         "name": "Vercel"
       },
       "source": {
-        "source": "url",
+        "source": "git",
         "url": "https://github.com/vercel/vercel-plugin.git"
       },
       "homepage": "https://vercel.com"
@@ -515,7 +513,7 @@
         "name": "Sentry"
       },
       "source": {
-        "source": "url",
+        "source": "git",
         "url": "https://github.com/getsentry/plugin-claude.git"
       },
       "homepage": "https://sentry.io"
@@ -543,7 +541,7 @@
         "name": "Obra / Community"
       },
       "source": {
-        "source": "url",
+        "source": "git",
         "url": "https://github.com/obra/superpowers.git"
       },
       "homepage": "https://github.com/obra/superpowers"
