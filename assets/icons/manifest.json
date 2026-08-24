@@ -1,185 +1,85 @@
 {
+  "baseURL": "https://cdn.ft.tech/imgs/ftai-desktop-icons/",
   "icons": [
     {
       "name": "notion",
       "file": "notion.svg",
-      "displayName": "Notion",
-      "category": "productivity",
-      "type": "external",
-      "brandColor": "#000000",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/notion.svg"
     },
     {
       "name": "github",
       "file": "github.svg",
-      "displayName": "GitHub",
-      "category": "productivity",
-      "type": "external",
-      "brandColor": "#181717",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/github.svg"
     },
     {
       "name": "google-drive",
       "file": "google-drive.svg",
-      "displayName": "Google Drive",
-      "category": "productivity",
-      "type": "external",
-      "brandColor": "#4285F4",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/google-drive.svg"
     },
     {
       "name": "gitlab",
       "file": "gitlab.svg",
-      "displayName": "GitLab",
-      "category": "productivity",
-      "type": "external",
-      "brandColor": "#FC6D26",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/gitlab.svg"
     },
     {
       "name": "linear",
       "file": "linear.svg",
-      "displayName": "Linear",
-      "category": "productivity",
-      "type": "external",
-      "brandColor": "#5E6AD2",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/linear.svg"
     },
     {
       "name": "figma",
       "file": "figma.svg",
-      "displayName": "Figma",
-      "category": "design",
-      "type": "external",
-      "brandColor": "#F24E1E",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/figma.svg"
     },
     {
       "name": "postgres",
       "file": "postgres.svg",
-      "displayName": "PostgreSQL",
-      "category": "database",
-      "type": "external",
-      "brandColor": "#336791",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/postgres.svg"
     },
     {
       "name": "redis",
       "file": "redis.svg",
-      "displayName": "Redis",
-      "category": "database",
-      "type": "external",
-      "brandColor": "#DC382D",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/redis.svg"
     },
     {
       "name": "docker",
       "file": "docker.svg",
-      "displayName": "Docker",
-      "category": "deployment",
-      "type": "external",
-      "brandColor": "#2496ED",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/docker.svg"
     },
     {
       "name": "playwright",
       "file": "playwright.svg",
-      "displayName": "Playwright",
-      "category": "testing",
-      "type": "external",
-      "brandColor": "#2EAD33",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/playwright.svg"
-    },
-    {
-      "name": "context7",
-      "file": "context7.svg",
-      "displayName": "Context7",
-      "category": "development",
-      "type": "official",
-      "brandColor": "#38BDF8",
-      "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/context7.svg"
-    },
-    {
-      "name": "code-review",
-      "file": "code-review.svg",
-      "displayName": "FtAi Code Review",
-      "category": "development",
-      "type": "internal",
-      "brandColor": "#059669",
-      "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/code-review.svg"
-    },
-    {
-      "name": "frontend-design",
-      "file": "frontend-design.svg",
-      "displayName": "FtAi Frontend Design",
-      "category": "design",
-      "type": "internal",
-      "brandColor": "#6366F1",
-      "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/frontend-design.svg"
     },
     {
       "name": "tavily",
       "file": "tavily.svg",
-      "displayName": "Tavily",
-      "category": "ai-search",
-      "type": "external",
-      "brandColor": "#3B82F6",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/tavily.svg"
     },
     {
       "name": "exa",
       "file": "exa.svg",
-      "displayName": "Exa",
-      "category": "ai-search",
-      "type": "external",
-      "brandColor": "#0143D9",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/exa.svg"
     },
     {
       "name": "supabase",
       "file": "supabase.svg",
-      "displayName": "Supabase",
-      "category": "database",
-      "type": "external",
-      "brandColor": "#3ECF8E",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/supabase.svg"
     },
     {
       "name": "slack",
       "file": "slack.svg",
-      "displayName": "Slack",
-      "category": "productivity",
-      "type": "external",
-      "brandColor": "#4A154B",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/slack.svg"
     },
     {
       "name": "vercel",
       "file": "vercel.svg",
-      "displayName": "Vercel",
-      "category": "deployment",
-      "type": "external",
-      "brandColor": "#000000",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/vercel.svg"
     },
     {
       "name": "sentry",
       "file": "sentry.svg",
-      "displayName": "Sentry",
-      "category": "monitoring",
-      "type": "external",
-      "brandColor": "#362D59",
       "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/sentry.svg"
-    },
-    {
-      "name": "superpowers",
-      "file": "superpowers.svg",
-      "displayName": "Superpowers",
-      "category": "development",
-      "type": "official",
-      "brandColor": "#8B5CF6",
-      "url": "https://cdn.ft.tech/imgs/ftai-desktop-icons/superpowers.svg"
     }
-  ],
-  "baseURL": "https://cdn.ft.tech/imgs/ftai-desktop-icons/"
+  ]
 }

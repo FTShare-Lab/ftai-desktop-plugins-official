@@ -669,8 +669,7 @@
             "Authorization": "${CONTEXT7_API_KEY:-}"
           }
         }
-      },
-      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/context7.svg"
+      }
     },
     {
       "name": "code-review",
@@ -716,8 +715,7 @@
       "homepage": "https://github.com/ftai",
       "skills": [
         "skills/code-review"
-      ],
-      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/code-review.svg"
+      ]
     },
     {
       "name": "frontend-design",
@@ -766,8 +764,7 @@
       "homepage": "https://github.com/ftai",
       "skills": [
         "skills/frontend-design"
-      ],
-      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/frontend-design.svg"
+      ]
     },
     {
       "name": "tavily",
@@ -1116,8 +1113,7 @@
         "source": "git",
         "url": "https://github.com/obra/superpowers.git"
       },
-      "homepage": "https://github.com/obra/superpowers",
-      "icon": "https://cdn.ft.tech/imgs/ftai-desktop-icons/superpowers.svg"
+      "homepage": "https://github.com/obra/superpowers"
     }
   ]
 }
