@@ -111,6 +111,16 @@
       "category": "development",
       "source": "./plugins/exa",
       "homepage": "https://exa.ai"
+    },
+    {
+      "name": "ftshare",
+      "description": "FTShare financial data skill: A-share, HK and US stock quotes, candlesticks, funds, ETFs, indexes, convertible bonds, macro data and financial news.",
+      "category": "finance",
+      "source": {
+        "source": "git",
+        "url": "https://github.com/FTShare-Lab/FTShare-skill.git"
+      },
+      "homepage": "https://github.com/FTShare-Lab/FTShare-skill"
     }
   ]
 }
